@@ -1,0 +1,142 @@
+\hypertarget{class_service_library_1_1_utility}{\section{Service\-Library.\-Utility Class Reference}
+\label{class_service_library_1_1_utility}\index{Service\-Library.\-Utility@{Service\-Library.\-Utility}}
+}
+
+
+\hyperlink{class_service_library_1_1_utility}{Utility} class that serves functions that doesnt belong anywhere specific.  
+
+
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{class_service_library_1_1_utility_ab80e4b5079a093a61aa3b7e85e90f751}{Fleamarket\-Category} \{ {\bfseries flea}, 
+{\bfseries charity}, 
+{\bfseries trunk}, 
+{\bfseries other}
+ \}
+\begin{DoxyCompactList}\small\item\em Containing enum from database \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_service_library_1_1_wrapper}{Wrapper} \hyperlink{class_service_library_1_1_utility_aa17bea205486313547850b080f5cea9d}{review\-Validate\-Rules} (string fleamarketid, string stars, string text)
+\begin{DoxyCompactList}\small\item\em Function that checks all parameters for a review \end{DoxyCompactList}\item 
+static \hyperlink{class_service_library_1_1_wrapper}{Wrapper} \hyperlink{class_service_library_1_1_utility_a11e42ae7e0eabb70fdd87b64c687b2c4}{opening\-Validate\-Rules} (string from, string to, string description)
+\begin{DoxyCompactList}\small\item\em Function that parses and checks opening parameters \end{DoxyCompactList}\item 
+static \hyperlink{class_service_library_1_1_wrapper}{Wrapper} \hyperlink{class_service_library_1_1_utility_a4f91936b2528e48313886c219294275a}{fleamarket\-Validate\-Rules} (string name, string description, string logo, string category, string city, string street, string postcode, string latitude, string longitude)
+\begin{DoxyCompactList}\small\item\em Function that checks parameters for a fleamarket and parses them \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_service_library_1_1_utility}{Utility} class that serves functions that doesnt belong anywhere specific. 
+
+
+
+\subsection{Member Enumeration Documentation}
+\hypertarget{class_service_library_1_1_utility_ab80e4b5079a093a61aa3b7e85e90f751}{\index{Service\-Library\-::\-Utility@{Service\-Library\-::\-Utility}!Fleamarket\-Category@{Fleamarket\-Category}}
+\index{Fleamarket\-Category@{Fleamarket\-Category}!ServiceLibrary::Utility@{Service\-Library\-::\-Utility}}
+\subsubsection[{Fleamarket\-Category}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Service\-Library.\-Utility.\-Fleamarket\-Category}}}\label{class_service_library_1_1_utility_ab80e4b5079a093a61aa3b7e85e90f751}
+
+
+Containing enum from database 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_service_library_1_1_utility_a4f91936b2528e48313886c219294275a}{\index{Service\-Library\-::\-Utility@{Service\-Library\-::\-Utility}!fleamarket\-Validate\-Rules@{fleamarket\-Validate\-Rules}}
+\index{fleamarket\-Validate\-Rules@{fleamarket\-Validate\-Rules}!ServiceLibrary::Utility@{Service\-Library\-::\-Utility}}
+\subsubsection[{fleamarket\-Validate\-Rules}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Wrapper} Service\-Library.\-Utility.\-fleamarket\-Validate\-Rules (
+\begin{DoxyParamCaption}
+\item[{string}]{name, }
+\item[{string}]{description, }
+\item[{string}]{logo, }
+\item[{string}]{category, }
+\item[{string}]{city, }
+\item[{string}]{street, }
+\item[{string}]{postcode, }
+\item[{string}]{latitude, }
+\item[{string}]{longitude}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_service_library_1_1_utility_a4f91936b2528e48313886c219294275a}
+
+
+Function that checks parameters for a fleamarket and parses them 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & Name of the fleamarket\\
+\hline
+{\em description} & Description of the fleamarket\\
+\hline
+{\em logo} & Logo of the fleamarket\\
+\hline
+{\em category} & Category of the fleamarket\\
+\hline
+{\em city} & City of the fleamarket\\
+\hline
+{\em street} & Street of the fleamarket\\
+\hline
+{\em postcode} & Postcode of the fleamarket\\
+\hline
+{\em latitude} & Latitude of the fleamarket\\
+\hline
+{\em longitude} & Longitude of the fleamarket\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Return wrapper with a fleamarket and address object to take info out of
+\end{DoxyReturn}
+\hypertarget{class_service_library_1_1_utility_a11e42ae7e0eabb70fdd87b64c687b2c4}{\index{Service\-Library\-::\-Utility@{Service\-Library\-::\-Utility}!opening\-Validate\-Rules@{opening\-Validate\-Rules}}
+\index{opening\-Validate\-Rules@{opening\-Validate\-Rules}!ServiceLibrary::Utility@{Service\-Library\-::\-Utility}}
+\subsubsection[{opening\-Validate\-Rules}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Wrapper} Service\-Library.\-Utility.\-opening\-Validate\-Rules (
+\begin{DoxyParamCaption}
+\item[{string}]{from, }
+\item[{string}]{to, }
+\item[{string}]{description}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_service_library_1_1_utility_a11e42ae7e0eabb70fdd87b64c687b2c4}
+
+
+Function that parses and checks opening parameters 
+
+
+\begin{DoxyParams}{Parameters}
+{\em from} & Datetime representing from\\
+\hline
+{\em to} & Datetime representing to\\
+\hline
+{\em description} & Description for opening\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\hypertarget{class_service_library_1_1_utility_aa17bea205486313547850b080f5cea9d}{\index{Service\-Library\-::\-Utility@{Service\-Library\-::\-Utility}!review\-Validate\-Rules@{review\-Validate\-Rules}}
+\index{review\-Validate\-Rules@{review\-Validate\-Rules}!ServiceLibrary::Utility@{Service\-Library\-::\-Utility}}
+\subsubsection[{review\-Validate\-Rules}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Wrapper} Service\-Library.\-Utility.\-review\-Validate\-Rules (
+\begin{DoxyParamCaption}
+\item[{string}]{fleamarketid, }
+\item[{string}]{stars, }
+\item[{string}]{text}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_service_library_1_1_utility_aa17bea205486313547850b080f5cea9d}
+
+
+Function that checks all parameters for a review 
+
+
+\begin{DoxyParams}{Parameters}
+{\em fleamarketid} & Id of the fleamarket that needs to be parsed\\
+\hline
+{\em stars} & Stars to be parsed\\
+\hline
+{\em text} & Text that needs to be checked\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns a review in wrapper for other functions to take data from thats been parsed
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Service\-Library/utility.\-cs\end{DoxyCompactItemize}

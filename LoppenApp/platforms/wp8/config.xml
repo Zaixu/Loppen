@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget>
+    <access origin="*" />
+    <feature name="Device">
+        <param name="wp-package" value="Device" />
+    </feature>
+    <feature name="PGMapLauncher">
+        <param name="wp-package" value="PGMapLauncher" />
+    </feature>
+</widget>

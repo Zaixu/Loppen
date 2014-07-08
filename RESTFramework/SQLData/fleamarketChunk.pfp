@@ -1,0 +1,1986 @@
+{
+    "variables":
+    {
+        "$category_fleamarket": "flea",
+        "$category_trunk": "trunk",
+        "$category_charity": "charity",
+        "$category_other": "other",
+        "$logo_folkekirken": "http://imgur.com/cGoJdK4"
+    },
+    "fleamarkets":
+    [
+        {
+            "postcode": "5560", 
+            "openings": [
+                "Mandag - fredag: 13.00 - 17.30", 
+                "1. l\u00f8rdag i m\u00e5neden 10.00 - 13.00", 
+                "Onsdag: Afhentning af varer"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: \u00c5rup", 
+            "city": "\u00c5rup", 
+            "address": "Indre Ringvej 7", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "2400", 
+            "openings": [
+                "Mandag - fredag 10.00 - 16.30"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: K\u00f8benhavn NV (Frederikssundvej)", 
+            "city": "K\u00f8benhavn NV", 
+            "address": "Frederikssundsvej 90B", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "2750", 
+            "openings": [
+                "Mandag - Fredag 10.00 - 17.30", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Ballerup", 
+            "city": "Ballerup", 
+            "address": "Centrumgade 27", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "5800", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Nyborg", 
+            "city": "Nyborg", 
+            "address": "N\u00f8rregade 11", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "1171", 
+            "openings": [
+                "tirsdag - fredag 10.00 - 18.00", 
+                "L\u00f8rdag 10.00 - 14.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: LOOP", 
+            "city": "K\u00f8benhavn K", 
+            "address": "Fiolstr\u00e6de 28", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "100", 
+            "openings": [
+                "Mandag \u2013 fredag 13.00 - 17.30", 
+                "L\u00f8rdag 11.00 - 14.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: F\u00e6r\u00f8erne", 
+            "city": "Thorshavn, F\u00e6r\u00f8erne", 
+            "address": "Niels Winthers Gade 9", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "7800", 
+            "openings": [
+                "Mandag - fredag 9.30 - 17.00", 
+                "L\u00f8rdag 9.30 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Skive", 
+            "city": "Skive", 
+            "address": "Kirke All\u00e9 98, Egeris", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "7430", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 12.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Ikast", 
+            "city": "Ikast", 
+            "address": "M\u00f8llegade 16", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "4970", 
+            "openings": [
+                "Mandag - fredag 13.00 - 16.30"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: R\u00f8dby m\u00f8belbutik", 
+            "city": "R\u00f8dby", 
+            "address": "\u00d8stergade 39 D", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "9370", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 12.30"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Hals", 
+            "city": "Hals", 
+            "address": "Midtergade 16", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "2860", 
+            "openings": [
+                "Lukket pr. 1. november 2010", 
+                "Mandag - torsdag 10.00 - 17.00", 
+                "Fredag 10.00 - 18.00", 
+                "L\u00f8rdag 10.00 - 14.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: S\u00f8borg M\u00f8bel", 
+            "city": "S\u00f8borg", 
+            "address": "S\u00f8borg Hovedgade 177", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "1572", 
+            "openings": [
+                "Mandag - fredag 12.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: K\u00f8benhavn V", 
+            "city": "K\u00f8benhavn V", 
+            "address": "Anker Heegaards Gade 2", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "9480", 
+            "openings": [
+                "Tirsdag, torsdag og fredag 13.00 - 16.00", 
+                "L\u00f8rdag 12.00 - 17.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: L\u00f8kken m\u00f8bler", 
+            "city": "L\u00f8kken", 
+            "address": "M\u00f8stingsvej 4C", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "4700", 
+            "openings": [
+                "Man - fre 13.00 - 17.00", 
+                "L\u00f8r - s\u00f8n 11.00 - 15.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: N\u00e6stved", 
+            "city": "N\u00e6stved", 
+            "address": "Transportbuen 5", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "5250", 
+            "openings": [
+                "Mandag - fredag 12.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Odense SV", 
+            "city": "Odense SV", 
+            "address": "F\u00e5borgvej 102 A", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "5260", 
+            "openings": [
+                "Tirsdag - fredag 13.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Odense S", 
+            "city": "Odense S", 
+            "address": "Svendborgvej 319 A, H\u00f8jby", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "4550", 
+            "openings": [
+                "Onsdag - fredag 13.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Asn\u00e6s M\u00f8bel", 
+            "city": "Asn\u00e6s", 
+            "address": "Storegade 26", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "3200", 
+            "openings": [
+                "Mandag - fredag 11.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 14.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Helsinge", 
+            "city": "Helsinge", 
+            "address": "VP-Arkaden,                 \u00d8stergade 12", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "6240", 
+            "openings": [
+                "Mandag - fredag 14.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: L\u00f8gumkloster M\u00f8belgenbrugsbutik", 
+            "city": "L\u00f8gumkloster", 
+            "address": "\u00d8stergade 8", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "2200", 
+            "openings": [
+                "Mandag - fredag 12.00 - 18.00", 
+                "L\u00f8rdag 11.00 - 15.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: K\u00f8benhavn N", 
+            "city": "K\u00f8benhavn N", 
+            "address": "F\u00e6lledvej 9A, kld.", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "8230", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 14.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: \u00c5byh\u00f8j", 
+            "city": "\u00c5byh\u00f8j", 
+            "address": "Silkeborgvej 285", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "9800", 
+            "openings": [
+                "Mandag 13.00 - 17.00", 
+                "Onsdag - Fredag 13.00 - 17.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Hj\u00f8rring M\u00f8belgenbrugsbutik", 
+            "city": "Hj\u00f8rring", 
+            "address": "Hestk\u00e6rvej 4", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "4800", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Nyk\u00f8bing F.", 
+            "city": "Nyk\u00f8bing F", 
+            "address": "Slotsgade 25", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "5610", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 12.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Assens", 
+            "city": "Assens", 
+            "address": "\u00d8stergade 52A", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "5400", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 12.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Bogense", 
+            "city": "Bogense", 
+            "address": "Adelgade 58", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "5600", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 12.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Faaborg", 
+            "city": "F\u00e5borg", 
+            "address": "\u00d8stergade 15", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "5620", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 9.00 - 12.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Glamsbjerg", 
+            "city": "Glamsbjerg", 
+            "address": "S\u00f8ndergade 18", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "5300", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Kerteminde", 
+            "city": "Kerteminde", 
+            "address": "Vestergade 6", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "5500", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 9.30 - 12.30"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Middelfart", 
+            "city": "Middelfart", 
+            "address": "Jernbanegade 8", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "5000", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.30"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Odense C", 
+            "city": "Odense C", 
+            "address": "Vesterbro 1A", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "5200", 
+            "openings": [
+                "Mandag - Fredag 13.00 - 16.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Odense V", 
+            "city": "Odense V", 
+            "address": "Middelfartvej 129", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "5700", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Svendborg", 
+            "city": "Svendborg", 
+            "address": "M\u00f8llergade 104", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "5690", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.30", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Tommerup", 
+            "city": "Tommerup", 
+            "address": "Tallerupvej 27", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "2000", 
+            "openings": [
+                "Tirsdag - fredag 10.00 - 17.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Frederiksberg", 
+            "city": "Frederiksberg", 
+            "address": "Sdr. Fasanvej 2, hj\u00f8rnet", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "2000", 
+            "openings": [
+                "Tirsdag - fredag 10.00 - 17.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Frederiksberg M\u00f8bler", 
+            "city": "Frederiksberg", 
+            "address": "Sdr. Fasanvej 2A, k\u00e6lder", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "2100", 
+            "openings": [
+                "Mandag lukket", 
+                "Tirsdag - fredag 10.00 - 17.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: K\u00f8benhavn \u00d8", 
+            "city": "K\u00f8benhavn \u00d8", 
+            "address": "Lyngbyvej 144-146", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "2300", 
+            "openings": [
+                "Mandag - fredag 10.30 - 17.00", 
+                "L\u00f8rdag 11.00 - 14.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: K\u00f8benhavn S", 
+            "city": "K\u00f8benhavn S", 
+            "address": "Amagerbrogade 9A", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "2650", 
+            "openings": [
+                "Mandag - fredag 10.00 - 16.30", 
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Hvidovre", 
+            "city": "Hvidovre", 
+            "address": "Hvidovrevej 284", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "2720", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Vanl\u00f8se", 
+            "city": "Vanl\u00f8se", 
+            "address": "\u00c5lekistevej 85", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "2740", 
+            "openings": [
+                "Mandag - fredag 9.30 - 17.30", 
+                "L\u00f8rdag 10.00 - 14.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Skovlunde", 
+            "city": "Skovlunde", 
+            "address": "Skovlunde Centret Syd, Bybjergvej 6F", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "2791", 
+            "openings": [
+                "Mandag \u2013 fredag 10.00 \u2013 17.00", 
+                "L\u00f8rdag 10.00 \u2013 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Drag\u00f8r", 
+            "city": "Drag\u00f8r", 
+            "address": "Kirkevej 137", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "2800", 
+            "openings": [
+                "Mandag - fredag 9.30 - 17.30", 
+                "L\u00f8rdag 10.00 - 14.00", 
+                "Sommer: L\u00f8rdage i juli lukket."
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Brede", 
+            "city": "Kgs. Lyngby", 
+            "address": "Brede Torv, Lystoftevej 52", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "2800", 
+            "openings": [
+                "Mandag - fredag 9.30 - 17.30"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Lyngby", 
+            "city": "Lyngby", 
+            "address": "Lyngbyg\u00e5rdsvej 96", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "2820", 
+            "openings": [
+                "Mandag - torsdag 10.00 - 17.00", 
+                "Fredag - l\u00f8rdag 10.00 - 13.30"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Vangede", 
+            "city": "Gentofte", 
+            "address": "Vangede Bygade 88", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "2830", 
+            "openings": [
+                "Tirsdag - fredag 10.00 - 17.30", 
+                "L\u00f8rdag 10.00 - 13.00", 
+                "Sommerlukket 1/7-1/8"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Virum", 
+            "city": "Virum", 
+            "address": "Hasselvej 4", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "2860", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00 undtagen i juni, juli og august"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: S\u00f8borg", 
+            "city": "S\u00f8borg", 
+            "address": "S\u00f8borg Hovedgade 189", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "5900", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00", 
+                "I perioden januar til marts holder vi lukket l\u00f8rdag"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Rudk\u00f8bing", 
+            "city": "Rudk\u00f8bing", 
+            "address": "Ahlefeldtsgade 4", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "4900", 
+            "openings": [
+                "Mandag - onsdag 13.00 - 17.00", 
+                "Torsdag - fredag 10.00 - 17.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Nakskov", 
+            "city": "Nakskov", 
+            "address": "Nygade 16", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "4970", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: R\u00f8dby", 
+            "city": "R\u00f8dby", 
+            "address": "\u00d8stergade 19", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "4990", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 12.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Saksk\u00f8bing", 
+            "city": "Saksk\u00f8bing", 
+            "address": "S\u00f8ndergade 19", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "6933", 
+            "openings": [
+                "Mandag - fredag 10.00 - 14.00", 
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 9.30 - 12.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Kib\u00e6k", 
+            "city": "Kib\u00e6k", 
+            "address": "Nr. Bredgade 9", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "7100", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Vejle", 
+            "city": "Vejle", 
+            "address": "Langelinie 40", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "7160", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: T\u00f8rring", 
+            "city": "T\u00f8rring", 
+            "address": "Bredgade 27", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "7330", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 12.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Brande", 
+            "city": "Brande", 
+            "address": "Storegade 19", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "7480", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Vildbjerg", 
+            "city": "Vildbjerg", 
+            "address": "Lysg\u00e5rdvej 24", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "7870", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 12.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Roslev", 
+            "city": "Roslev", 
+            "address": "Rybjergvej 20", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "8300", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 9.30 - 12.30"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Odder", 
+            "city": "Odder", 
+            "address": "Holsteinsgade 8 - 10", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "8382", 
+            "openings": [
+                "Mandag - torsdag 10.00 - 17.00", 
+                "Fredag - l\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Hinnerup", 
+            "city": "Hinnerup", 
+            "address": "\u00d8rstedsvej 3", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "8410", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.30", 
+                "L\u00f8rdag 10.00 - 12.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: R\u00f8nde", 
+            "city": "R\u00f8nde", 
+            "address": "Frederiks Alle 10", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "8450", 
+            "openings": [
+                "Mandag- fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Hammel", 
+            "city": "Hammel", 
+            "address": "\u00d8stergade 6", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "8500", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Grenaa", 
+            "city": "Grenaa", 
+            "address": "\u00d8stergade 23", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "8585", 
+            "openings": [
+                "Mandag - tirsdag 13.00 - 17.00", 
+                "Onsdag - torsdag 10.00 - 17.00", 
+                "Fredag 10.00 - 18.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Fjellerup", 
+            "city": "Fjellerup", 
+            "address": "Kannesh\u00f8jvej 1, Glesborg", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "8600", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Silkeborg", 
+            "city": "Silkeborg", 
+            "address": "Nygade 32 A", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "8660", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Skanderborg", 
+            "city": "Skanderborg", 
+            "address": "N\u00f8rregade 4", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "7860", 
+            "openings": [
+                "Torsdag - fredag 13.30 - 16.30", 
+                "L\u00f8rdag 10.00 - 14.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Sp\u00f8ttrup", 
+            "city": "Sp\u00f8ttrup", 
+            "address": "K\u00e5strupvej 20-22", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "8620", 
+            "openings": [
+                "Mandag \u2013 fredag", 
+                "10.00 \u2013 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Kjellerup", 
+            "city": "Kjellerup", 
+            "address": "S\u00f8ndergade 3", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "8680", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 12.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Ry", 
+            "city": "Ry", 
+            "address": "Klostervej 18", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "8700", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Horsens", 
+            "city": "Horsens", 
+            "address": "Kattesund 3-5", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "8722", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Hedensted", 
+            "city": "Hedensted", 
+            "address": "\u00d8sterbrogade 2", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "8883", 
+            "openings": [
+                "Mandag-torsdag 14.00 - 17.00", 
+                "Fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 12.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Gjern", 
+            "city": "Gjern", 
+            "address": "Borgergade 13", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "8900", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Randers", 
+            "city": "Randers", 
+            "address": "Houmeden 14", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "8800", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 12.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Viborg", 
+            "city": "Viborg", 
+            "address": "Sct. Mathiasgade 74", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "4780", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Stege", 
+            "city": "Stege", 
+            "address": "Storegade 26", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "4550", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 12.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Asn\u00e6s", 
+            "city": "Asn\u00e6s", 
+            "address": "Storegade 28", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "3520", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Farum", 
+            "city": "Farum", 
+            "address": "Farum Hovedgade 79", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "3600", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Frederikssund", 
+            "city": "Frederikssund", 
+            "address": "Jernbanegade 22", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "3230", 
+            "openings": [
+                "Mandag - fredag 10.00 \u2013 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Gr\u00e6sted", 
+            "city": "Gr\u00e6sted", 
+            "address": "Gr\u00e6sted Hovedgade 7a", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "4450", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Jyderup", 
+            "city": "Jyderup", 
+            "address": "Drivs\u00e5tvej 4C", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "4400", 
+            "openings": [
+                "Mandag - fredag 10.00 -17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Kalundborg", 
+            "city": "Kalundborg", 
+            "address": "Kordilgade 58", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "4500", 
+            "openings": [
+                "Mandag - fredag 9.30 - 16.30", 
+                "L\u00f8rdag 9.30 - 12.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Nyk\u00f8bing Sj.", 
+            "city": "Nyk\u00f8bing Sj.", 
+            "address": "Savv\u00e6rksvej 4", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "4000", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Roskilde", 
+            "city": "Roskilde", 
+            "address": "K\u00f8gevej 108", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "4050", 
+            "openings": [
+                "Mandag - torsdag 10.00 - 17.30. Fredag  10,00 - 18,00.", 
+                "L\u00f8rdag 9,30 - 13.00."
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Skibby", 
+            "city": "Skibby", 
+            "address": "Bymidten 1", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "3000", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 12.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Helsing\u00f8r", 
+            "city": "Helsing\u00f8r", 
+            "address": "Torvegade 1", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "9460", 
+            "openings": [
+                "Mandag - fredag 9.30 - 17.00", 
+                "L\u00f8rdag 9.30 - 12.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Brovst", 
+            "city": "Brovst", 
+            "address": "Jernbanegade 28", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "9700", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Br\u00f8nderslev", 
+            "city": "Br\u00f8nderslev", 
+            "address": "Algade 81", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "9800", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Hj\u00f8rring", 
+            "city": "Hj\u00f8rring", 
+            "address": "\u00d8stergade 38", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "9500", 
+            "openings": [
+                "Mandag - fredag 9.30 - 17.00", 
+                "L\u00f8rdag 9.30 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Hobro", 
+            "city": "Hobro", 
+            "address": "Jernbanegade 1", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "9670", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 12.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: L\u00f8gst\u00f8r", 
+            "city": "L\u00f8gst\u00f8r", 
+            "address": "Bredgade 16", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "9480", 
+            "openings": [
+                "Sommer: Mandag - fredag kl. 10.00 - 17.00", 
+                "Sommer: L\u00f8rdag kl. 11.00 - 16.00", 
+                "Vinter: Mandag - fredag kl. 10.00 - 16.00", 
+                "Vinter: L\u00f8rdag kl. 11.00 - 16.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: L\u00f8kken", 
+            "city": "L\u00f8kken", 
+            "address": "N\u00f8rregade 15", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "9550", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Mariager", 
+            "city": "Mariager", 
+            "address": "Havnegade 9", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "9550", 
+            "openings": [
+                "Gaveboden har \u00e5ben i sommerhalv\u00e5ret"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Mariager - GAVEBODEN", 
+            "city": "Mariager", 
+            "address": "Egepladsen", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "7900", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 12.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Nyk\u00f8bing M", 
+            "city": "Nyk\u00f8bing M", 
+            "address": "Toftegade 1", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "9520", 
+            "openings": [
+                "Mandag 13.30 - 17.00", 
+                "Tirsdag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Sk\u00f8rping", 
+            "city": "Sk\u00f8rping", 
+            "address": "Jyllandsgade 16", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "7752", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.30", 
+                "L\u00f8rdag 10.00 - 12.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Snedsted - Thyboden", 
+            "city": "Snedsted", 
+            "address": "Thyboden, Hovedgaden 49", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "9230", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Svenstrup", 
+            "city": "Svenstrup", 
+            "address": "Godth\u00e5bsvej 6A", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "9300", 
+            "openings": [
+                "Mandag - fredag 9.30 - 17.30", 
+                "L\u00f8rdag 9.30 - 12.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: S\u00e6by", 
+            "city": "S\u00e6by", 
+            "address": "S\u00f8ndergade 38", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "9310", 
+            "openings": [
+                "Mandag, torsdag og fredag 14.00 - 17.00", 
+                "L\u00f8rdag 9.30 - 12.30"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Vodskov - Vester Hassing", 
+            "city": "Vodskov", 
+            "address": "Halsvej 270, Vester Hassing", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "9000", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00", 
+                "Sommer: Mandag - fredag 11.00 - 16.00", 
+                "Sommer: L\u00f8rdag 10.00 - 14.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Aalborg", 
+            "city": "Aalborg", 
+            "address": "Holbergsgade 1", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "4293", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 12.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Dianalund", 
+            "city": "Dianalund", 
+            "address": "Holbergsvej 7", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "4640", 
+            "openings": [
+                "Mandag \u2013 tirsdag 10.00 - 17.00", 
+                "Onsdag 13.00 - 17.00", 
+                "Torsdag \u2013 fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Fakse", 
+            "city": "Fakse", 
+            "address": "Kalkbrudsvej 3D", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "4171", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Glums\u00f8", 
+            "city": "Glums\u00f8", 
+            "address": "Storegade 5", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "4600", 
+            "openings": [
+                "Mandag 13.30 \u2013 17.00", 
+                "Tirsdag \u2013 fredag 10.00 \u2013 17.00", 
+                "Den 1. l\u00f8rdag i m\u00e5neden 10.00 \u2013 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: K\u00f8ge", 
+            "city": "K\u00f8ge", 
+            "address": "Stationspladsen 5", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "4684", 
+            "openings": [
+                "Mandag - Fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Fensmark - Holmegaard", 
+            "city": "Holmegaard", 
+            "address": "Holmegaardsvej 63, Fensmark", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "4720", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Pr\u00e6st\u00f8", 
+            "city": "Pr\u00e6st\u00f8", 
+            "address": "Adelgade 27", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "4230", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Sk\u00e6lsk\u00f8r", 
+            "city": "Sk\u00e6lsk\u00f8r", 
+            "address": "Algade 41", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "4180", 
+            "openings": [
+                "Mandag, onsdag, torsdag og fredag 9.30 - 17.00", 
+                "Tirsdag 9.30 - 16.30", 
+                "L\u00f8rdag 9.30 - 12.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Sor\u00f8", 
+            "city": "Sor\u00f8", 
+            "address": "Storgade 3", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "4220", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 12.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Kors\u00f8r", 
+            "city": "Kors\u00f8r", 
+            "address": "Algade 50C", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "4200", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 12.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Slagelse", 
+            "city": "Slagelse", 
+            "address": "Smedegade 5", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "4760", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Vordingborg", 
+            "city": "Vordingborg", 
+            "address": "Algade 18 A", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "6040", 
+            "openings": [
+                "Mandag 13.00 - 17.00", 
+                "Tirsdag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Egtved", 
+            "city": "Egtved", 
+            "address": "S\u00f8ndergade 2", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "6700", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Esbjerg", 
+            "city": "Esbjerg", 
+            "address": "Torvegade 68A", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "6300", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 12.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Gr\u00e5sten", 
+            "city": "Gr\u00e5sten", 
+            "address": "Slotsgade 9", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "7620", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Lemvig", 
+            "city": "Lemvig", 
+            "address": "Weibelsgade 4", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "6760", 
+            "openings": [
+                "Mandag - fredag 10.00 - 16.30", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Ribe", 
+            "city": "Ribe", 
+            "address": "Von St\u00f8ckens Plads 4", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "6270", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: T\u00f8nder", 
+            "city": "T\u00f8nder", 
+            "address": "\u00d8stergade 7", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "6200", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: \u00c5benr\u00e5", 
+            "city": "\u00c5benr\u00e5", 
+            "address": "S\u00f8ndergade 3-5", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "5960", 
+            "openings": [
+                "Mandag - fredag 14.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 12.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Marstal", 
+            "city": "Marstal", 
+            "address": "Kongensgade 29", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "8000", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 11.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: \u00c5rhus, Gammel Munkegade", 
+            "city": "\u00c5rhus", 
+            "address": "Gl. Munkegade 8", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "8000", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: \u00c5rhus, Skt. Pauls Kirkeplads", 
+            "city": "\u00c5rhus", 
+            "address": "Skt. Pauls Kirkeplads 17", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "8200", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 10.00 - 12.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: \u00c5rhus Norges All\u00e9", 
+            "city": "\u00c5rhus N", 
+            "address": "Norges Alle 2", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "8210", 
+            "openings": [
+                "Mandag - fredag 10.00 - 17.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: \u00c5rhus V", 
+            "city": "\u00c5rhus V", 
+            "address": "Viborgvej 150", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "8240", 
+            "openings": [
+                "Mandag 10.00-17.30", 
+                "Tirsdag - fredag 10.00 - 17.00", 
+                "L\u00f8rdag 11.00 - 13.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Risskov", 
+            "city": "Risskov", 
+            "address": "Nordre Strandvej 28", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }, 
+        {
+            "postcode": "8380", 
+            "openings": [
+                "Mandag - torsdag 12.00 - 17.00", 
+                "Fredag 12.00 - 15.00"
+            ], 
+            "description": "Folkekirkens N\u00f8dhj\u00e6lp\u00b4s genbrugsbutik.", 
+            "logo": "$logo_folkekirken", 
+            "name": "Folkekirkens N\u00f8dhj\u00e6lp: Trige", 
+            "city": "Trige", 
+            "address": "Smedebroen 11 A", 
+            "items": [
+                "other"
+            ], 
+            "category": "$category_charity"
+        }
+    ]
+}

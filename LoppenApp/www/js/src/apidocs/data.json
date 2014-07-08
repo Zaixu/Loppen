@@ -1,0 +1,1648 @@
+{
+    "project": {
+        "name": "Loppen",
+        "description": "The Loppen App",
+        "version": "0.8.2",
+        "url": "http://www.crynac.com",
+        "logo": "(Logo)LoppenV2.png"
+    },
+    "files": {
+        "CrynacJavaScript\\auth_module.js": {
+            "name": "CrynacJavaScript\\auth_module.js",
+            "modules": {},
+            "classes": {
+                "Auth": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "CrynacJavaScript\\geocoder_module.js": {
+            "name": "CrynacJavaScript\\geocoder_module.js",
+            "modules": {},
+            "classes": {
+                "GeocoderWrapper": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "CrynacJavaScript\\language_module.js": {
+            "name": "CrynacJavaScript\\language_module.js",
+            "modules": {},
+            "classes": {
+                "LanguageModule": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "CrynacJavaScript\\mapwrapper_module.js": {
+            "name": "CrynacJavaScript\\mapwrapper_module.js",
+            "modules": {},
+            "classes": {
+                "MapWrapper": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "CrynacJavaScript\\rest_module.js": {
+            "name": "CrynacJavaScript\\rest_module.js",
+            "modules": {
+                "Services": 1
+            },
+            "classes": {
+                "RestModule": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "CrynacJavaScript\\validator_module.js": {
+            "name": "CrynacJavaScript\\validator_module.js",
+            "modules": {
+                "WebsiteServices": 1
+            },
+            "classes": {
+                "ValidatorModule": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "init.js": {
+            "name": "init.js",
+            "modules": {
+                "Bootstrappers": 1
+            },
+            "classes": {
+                "Navigationmenu": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "navigation_module.js": {
+            "name": "navigation_module.js",
+            "modules": {},
+            "classes": {
+                "NavigationModule": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "navigationmenu.js": {
+            "name": "navigationmenu.js",
+            "modules": {},
+            "classes": {
+                "NavigationMenu": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "ngmodule_app.js": {
+            "name": "ngmodule_app.js",
+            "modules": {},
+            "classes": {
+                "AppModule": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "ngmodule_controllers.js": {
+            "name": "ngmodule_controllers.js",
+            "modules": {},
+            "classes": {
+                "FleamarketListCtrl": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "ngmodule_directives.js": {
+            "name": "ngmodule_directives.js",
+            "modules": {
+                "Directives": 1
+            },
+            "classes": {
+                "FleaDirectives": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "ngmodule_filters.js": {
+            "name": "ngmodule_filters.js",
+            "modules": {},
+            "classes": {
+                "FleaFilters": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "ngmodule_mock_services.js": {
+            "name": "ngmodule_mock_services.js",
+            "modules": {},
+            "classes": {
+                "(MOCK)FleaServices": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "ngmodule_services.js": {
+            "name": "ngmodule_services.js",
+            "modules": {},
+            "classes": {
+                "FleaServices": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "testExamples.js": {
+            "name": "testExamples.js",
+            "modules": {
+                "Tests": 1
+            },
+            "classes": {
+                "HelloWorld": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "view_fleamarket-info_module.js": {
+            "name": "view_fleamarket-info_module.js",
+            "modules": {},
+            "classes": {
+                "ViewFleamarketInfo": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "view_landingpage_module.js": {
+            "name": "view_landingpage_module.js",
+            "modules": {
+                "ViewModels": 1
+            },
+            "classes": {
+                "ViewLandingPage": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "view_marketmap_module.js": {
+            "name": "view_marketmap_module.js",
+            "modules": {},
+            "classes": {
+                "ViewMarketMap": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {
+        "Services": {
+            "name": "Services",
+            "submodules": {
+                "undefined": 1
+            },
+            "classes": {
+                "LanguageModule": 1,
+                "NavigationModule": 1,
+                "FleaFilters": 1,
+                "Auth": 1,
+                "MapWrapper": 1,
+                "RestModule": 1,
+                "(MOCK)FleaServices": 1,
+                "FleaServices": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "main",
+            "file": "ngmodule_services.js",
+            "line": 5,
+            "description": "Services",
+            "itemtype": "main"
+        },
+        "WebsiteServices": {
+            "name": "WebsiteServices",
+            "submodules": {},
+            "classes": {
+                "GeocoderWrapper": 1,
+                "ValidatorModule": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "main",
+            "file": "CrynacJavaScript\\validator_module.js",
+            "line": 9,
+            "description": "WebsiteServices\n\nUtility services for the website.",
+            "itemtype": "main"
+        },
+        "Bootstrappers": {
+            "name": "Bootstrappers",
+            "submodules": {},
+            "classes": {
+                "AppModule": 1,
+                "Navigationmenu": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "main",
+            "file": "ngmodule_app.js",
+            "line": 2,
+            "description": "Bootstrappers.",
+            "itemtype": "main"
+        },
+        "ViewModels": {
+            "name": "ViewModels",
+            "submodules": {
+                "undefined": 1
+            },
+            "classes": {
+                "FleamarketListCtrl": 1,
+                "NavigationMenu": 1,
+                "ViewLandingPage": 1,
+                "ViewMarketMap": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "main",
+            "file": "view_marketmap_module.js",
+            "line": 2,
+            "description": "ViewModels",
+            "itemtype": "main"
+        },
+        "Directives": {
+            "name": "Directives",
+            "submodules": {},
+            "classes": {
+                "FleaDirectives": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "main",
+            "file": "ngmodule_directives.js",
+            "line": 6,
+            "itemtype": "main"
+        },
+        "Tests": {
+            "name": "Tests",
+            "submodules": {},
+            "classes": {
+                "HelloWorld": 1,
+                "ViewFleamarketInfo": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "main",
+            "file": "view_fleamarket-info_module.js",
+            "line": 2,
+            "description": "Tests",
+            "itemtype": "main"
+        }
+    },
+    "classes": {
+        "Auth": {
+            "name": "Auth",
+            "shortname": "Auth",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "Services",
+            "file": "CrynacJavaScript\\auth_module.js",
+            "line": 2,
+            "description": "Authentication handling for app"
+        },
+        "GeocoderWrapper": {
+            "name": "GeocoderWrapper",
+            "shortname": "GeocoderWrapper",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "WebsiteServices",
+            "namespace": "",
+            "file": "CrynacJavaScript\\geocoder_module.js",
+            "line": 2
+        },
+        "LanguageModule": {
+            "name": "LanguageModule",
+            "shortname": "LanguageModule",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "Services",
+            "namespace": "",
+            "file": "CrynacJavaScript\\language_module.js",
+            "line": 2,
+            "description": "Module for getting language specific strings for use in UI."
+        },
+        "MapWrapper": {
+            "name": "MapWrapper",
+            "shortname": "MapWrapper",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "Services",
+            "namespace": "",
+            "file": "CrynacJavaScript\\mapwrapper_module.js",
+            "line": 2,
+            "description": "Wrapper class for Google Maps Javascript API."
+        },
+        "RestModule": {
+            "name": "RestModule",
+            "shortname": "RestModule",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "Services",
+            "namespace": "",
+            "file": "CrynacJavaScript\\rest_module.js",
+            "line": 7,
+            "description": "Class for REST calls"
+        },
+        "ValidatorModule": {
+            "name": "ValidatorModule",
+            "shortname": "ValidatorModule",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "WebsiteServices",
+            "namespace": "",
+            "file": "CrynacJavaScript\\validator_module.js",
+            "line": 9,
+            "description": "Class for validating input of all sorts."
+        },
+        "Navigationmenu": {
+            "name": "Navigationmenu",
+            "shortname": "Navigationmenu",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "Bootstrappers",
+            "namespace": "",
+            "file": "init.js",
+            "line": 7,
+            "description": "Initialization of navigation menu."
+        },
+        "NavigationModule": {
+            "name": "NavigationModule",
+            "shortname": "NavigationModule",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "Services",
+            "namespace": "",
+            "file": "navigation_module.js",
+            "line": 2,
+            "description": "Module for native navigation calls."
+        },
+        "NavigationMenu": {
+            "name": "NavigationMenu",
+            "shortname": "NavigationMenu",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "ViewModels",
+            "namespace": "",
+            "file": "navigationmenu.js",
+            "line": 2,
+            "description": "Class containing our navigation menu."
+        },
+        "AppModule": {
+            "name": "AppModule",
+            "shortname": "AppModule",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "Bootstrappers",
+            "namespace": "",
+            "file": "ngmodule_app.js",
+            "line": 2,
+            "description": "Top level module for bootstrapping page and choosing which files to load."
+        },
+        "FleamarketListCtrl": {
+            "name": "FleamarketListCtrl",
+            "shortname": "FleamarketListCtrl",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "ViewModels",
+            "namespace": "",
+            "file": "ngmodule_controllers.js",
+            "line": 2,
+            "description": "For fleamarket list page."
+        },
+        "FleaDirectives": {
+            "name": "FleaDirectives",
+            "shortname": "FleaDirectives",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "Directives",
+            "namespace": "",
+            "file": "ngmodule_directives.js",
+            "line": 6,
+            "description": "Utility directives."
+        },
+        "FleaFilters": {
+            "name": "FleaFilters",
+            "shortname": "FleaFilters",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "Services",
+            "namespace": "",
+            "file": "ngmodule_filters.js",
+            "line": 2,
+            "description": "Filters to be used by pages."
+        },
+        "(MOCK)FleaServices": {
+            "name": "(MOCK)FleaServices",
+            "shortname": "(MOCK)FleaServices",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "Services",
+            "namespace": "",
+            "file": "ngmodule_mock_services.js",
+            "line": 2,
+            "description": "Mock service."
+        },
+        "FleaServices": {
+            "name": "FleaServices",
+            "shortname": "FleaServices",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "Services",
+            "namespace": "",
+            "file": "ngmodule_services.js",
+            "line": 5,
+            "description": "Utility services."
+        },
+        "HelloWorld": {
+            "name": "HelloWorld",
+            "shortname": "HelloWorld",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "Tests",
+            "namespace": "",
+            "file": "testExamples.js",
+            "line": 7,
+            "description": "Test module with no purpose except for being tested on."
+        },
+        "ViewFleamarketInfo": {
+            "name": "ViewFleamarketInfo",
+            "shortname": "ViewFleamarketInfo",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "Tests",
+            "namespace": "",
+            "file": "view_fleamarket-info_module.js",
+            "line": 2,
+            "description": "Responsible for the view of the flea market info page.",
+            "viewmodels": ""
+        },
+        "ViewLandingPage": {
+            "name": "ViewLandingPage",
+            "shortname": "ViewLandingPage",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "ViewModels",
+            "namespace": "",
+            "file": "view_landingpage_module.js",
+            "line": 7,
+            "description": "Module for index page functionality"
+        },
+        "ViewMarketMap": {
+            "name": "ViewMarketMap",
+            "shortname": "ViewMarketMap",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "ViewModels",
+            "namespace": "",
+            "file": "view_marketmap_module.js",
+            "line": 2,
+            "description": "Responsible for the view of the market map page."
+        }
+    },
+    "classitems": [
+        {
+            "file": "CrynacJavaScript\\auth_module.js",
+            "line": 86,
+            "description": "Logins with the data supplied.",
+            "itemtype": "method",
+            "name": "login",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "Server response indicating if user data was valid or not.",
+                    "type": "ServerResponse"
+                }
+            ],
+            "class": "Auth",
+            "module": "Services"
+        },
+        {
+            "file": "CrynacJavaScript\\auth_module.js",
+            "line": 105,
+            "description": "Register and user with the data supplied.",
+            "itemtype": "method",
+            "name": "register",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "Server response indicating if user got registered or not.",
+                    "type": "ServerResponse"
+                }
+            ],
+            "class": "Auth",
+            "module": "Services"
+        },
+        {
+            "file": "CrynacJavaScript\\auth_module.js",
+            "line": 124,
+            "description": "Verifies the input supplied about the user.",
+            "itemtype": "method",
+            "name": "verifyInput",
+            "params": [
+                {
+                    "name": "username",
+                    "description": "Username of user",
+                    "type": "String"
+                },
+                {
+                    "name": "password",
+                    "description": "Password of user",
+                    "type": "String"
+                }
+            ],
+            "class": "Auth",
+            "module": "Services"
+        },
+        {
+            "file": "CrynacJavaScript\\auth_module.js",
+            "line": 142,
+            "description": "Saves the user credentials if theres any saved.",
+            "itemtype": "method",
+            "name": "saveCredentials",
+            "params": [
+                {
+                    "name": "username",
+                    "description": "Username of the user.",
+                    "type": "String"
+                },
+                {
+                    "name": "password",
+                    "description": "Password of the user.",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "If any existing user is available it will be returned with bool status.",
+                "type": "Boolean"
+            },
+            "class": "Auth",
+            "module": "Services"
+        },
+        {
+            "file": "CrynacJavaScript\\auth_module.js",
+            "line": 164,
+            "description": "Loads the user credentials if theres any saved\n\npost: If any existing user is available it will be returned with bool status.",
+            "itemtype": "method",
+            "name": "loadCredentials",
+            "return": {
+                "description": "returns object of type {sucess, username, password}",
+                "type": "Object"
+            },
+            "class": "Auth",
+            "module": "Services"
+        },
+        {
+            "file": "CrynacJavaScript\\auth_module.js",
+            "line": 198,
+            "description": "Remove all user info from localStorage(HTML5).",
+            "itemtype": "method",
+            "name": "removeCredentials",
+            "class": "Auth",
+            "module": "Services"
+        },
+        {
+            "file": "CrynacJavaScript\\auth_module.js",
+            "line": 208,
+            "description": "Encode the string to be sent to the server.",
+            "itemtype": "method",
+            "name": "encode",
+            "params": [
+                {
+                    "name": "str",
+                    "description": "The string to encode."
+                }
+            ],
+            "class": "Auth",
+            "module": "Services"
+        },
+        {
+            "file": "CrynacJavaScript\\auth_module.js",
+            "line": 221,
+            "description": "Decode the string received from the server.",
+            "itemtype": "method",
+            "name": "encode",
+            "params": [
+                {
+                    "name": "str",
+                    "description": "The string to decode."
+                }
+            ],
+            "class": "Auth",
+            "module": "Services"
+        },
+        {
+            "file": "CrynacJavaScript\\auth_module.js",
+            "line": 253,
+            "description": "Shows the appropriate prompt for Authentication.\npost: Either logout will show if user is already logged in, or login/register dialog will show.",
+            "itemtype": "method",
+            "name": "prompt",
+            "class": "Auth",
+            "module": "Services"
+        },
+        {
+            "file": "CrynacJavaScript\\geocoder_module.js",
+            "line": 11,
+            "description": "Inits the module.\nNote: should be called first.",
+            "itemtype": "method",
+            "name": "init",
+            "class": "GeocoderWrapper",
+            "module": "WebsiteServices"
+        },
+        {
+            "file": "CrynacJavaScript\\geocoder_module.js",
+            "line": 20,
+            "description": "Returns first result from googles api if it has a street address.",
+            "itemtype": "method",
+            "name": "geocodeAddress",
+            "params": [
+                {
+                    "name": "fulladdress",
+                    "description": "Full address to be geocoded.",
+                    "type": "String"
+                },
+                {
+                    "name": "success",
+                    "description": "Success callback.",
+                    "type": "Function"
+                },
+                {
+                    "name": "error",
+                    "description": "Error callback.",
+                    "type": "Function"
+                }
+            ],
+            "return": {
+                "description": "returns First geocode match.",
+                "type": "Object"
+            },
+            "class": "GeocoderWrapper",
+            "module": "WebsiteServices"
+        },
+        {
+            "file": "CrynacJavaScript\\language_module.js",
+            "line": 245,
+            "description": "Change language used in the module.\n\npre:'language' should be one of the values from 'languages'.",
+            "itemtype": "method",
+            "name": "changeLanguage",
+            "params": [
+                {
+                    "name": "language",
+                    "description": "Set language to be used .",
+                    "type": "String"
+                }
+            ],
+            "class": "LanguageModule",
+            "module": "Services"
+        },
+        {
+            "file": "CrynacJavaScript\\language_module.js",
+            "line": 258,
+            "description": "Gets a string from the key specified.\n   \n   pre: The key is specified in the 'library'.\n   \n   post: The string for the 'key' and 'languageInUse' is returned.(If not found the key is returned.)",
+            "itemtype": "method",
+            "name": "getString",
+            "params": [
+                {
+                    "name": "key",
+                    "description": "Get UI string from specified key.",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "returns UI string.",
+                "type": "String"
+            },
+            "class": "LanguageModule",
+            "module": "Services"
+        },
+        {
+            "file": "CrynacJavaScript\\language_module.js",
+            "line": 276,
+            "description": "Gets an error string from the key specified.\n\n pre: code is specified as key in the errorlibrary\n\n post: The string for the 'code' and 'languageInUse' is returned, else the code is returned.",
+            "itemtype": "method",
+            "name": "getErrorString",
+            "params": [
+                {
+                    "name": "key",
+                    "description": "Get error string from specified key.",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "Returns error string.",
+                "type": "String"
+            },
+            "class": "LanguageModule",
+            "module": "Services"
+        },
+        {
+            "file": "CrynacJavaScript\\mapwrapper_module.js",
+            "line": 17,
+            "description": "The function responsible for setting up the module.\n\nNote: Should be the first function to run.",
+            "itemtype": "method",
+            "name": "init",
+            "class": "MapWrapper",
+            "module": "Services"
+        },
+        {
+            "file": "CrynacJavaScript\\mapwrapper_module.js",
+            "line": 27,
+            "description": "Initializes the map variable.",
+            "itemtype": "method",
+            "name": "showMap",
+            "return": {
+                "description": "Returns the google map object.",
+                "type": "GoogleMap"
+            },
+            "class": "MapWrapper",
+            "module": "Services"
+        },
+        {
+            "file": "CrynacJavaScript\\mapwrapper_module.js",
+            "line": 43,
+            "description": "Centers the map on a position.",
+            "itemtype": "method",
+            "name": "centerOn",
+            "params": [
+                {
+                    "name": "lat",
+                    "description": "Latitude of position to zoom in on.",
+                    "type": "Number"
+                },
+                {
+                    "name": "long",
+                    "description": "Longitude of position to zoom in on.",
+                    "type": "Number"
+                },
+                {
+                    "name": "zoom",
+                    "description": "Degree of zoom onto the position.",
+                    "type": "Number"
+                }
+            ],
+            "class": "MapWrapper",
+            "module": "Services"
+        },
+        {
+            "file": "CrynacJavaScript\\mapwrapper_module.js",
+            "line": 55,
+            "description": "Sets the argument marker as the currentlocationmarker.",
+            "itemtype": "method",
+            "name": "setCurrentLocationMarker",
+            "params": [
+                {
+                    "name": "market",
+                    "description": "The marker to set.",
+                    "type": "GoogleMarker"
+                }
+            ],
+            "class": "MapWrapper",
+            "module": "Services"
+        },
+        {
+            "file": "CrynacJavaScript\\mapwrapper_module.js",
+            "line": 66,
+            "description": "A function for creating a marker on the map.\n\npre: Map should be initialized.",
+            "itemtype": "method",
+            "name": "createMarker",
+            "params": [
+                {
+                    "name": "lat",
+                    "description": "Latitude to place marker on.",
+                    "type": "Number"
+                },
+                {
+                    "name": "lng",
+                    "description": "Longitude to place marker on.",
+                    "type": "Number"
+                },
+                {
+                    "name": "id",
+                    "description": "Id of market (for keeping track).",
+                    "type": "Number"
+                },
+                {
+                    "name": "img",
+                    "description": "Path to image for marker.",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "returns the Google Marker.",
+                "type": "GoogleMarker"
+            },
+            "class": "MapWrapper",
+            "module": "Services"
+        },
+        {
+            "file": "CrynacJavaScript\\mapwrapper_module.js",
+            "line": 89,
+            "description": "Putting an InfoWindow on a marker that opens when clicked.",
+            "itemtype": "method",
+            "name": "addInfoWindowToMarker",
+            "params": [
+                {
+                    "name": "marker",
+                    "description": "Market to set infowindow on.",
+                    "type": "GoogleMarker"
+                },
+                {
+                    "name": "windowcontent",
+                    "description": "HTML content for the infowindow.",
+                    "type": "String"
+                },
+                {
+                    "name": "callback",
+                    "description": "Callback for things like setting a onclick on a button created in infowindow.",
+                    "type": "Function"
+                }
+            ],
+            "class": "MapWrapper",
+            "module": "Services"
+        },
+        {
+            "file": "CrynacJavaScript\\mapwrapper_module.js",
+            "line": 106,
+            "description": "Removes all markers from the map.\n\nNotice: Market and current location markers.",
+            "itemtype": "method",
+            "name": "removeAllMarkers",
+            "class": "MapWrapper",
+            "module": "Services"
+        },
+        {
+            "file": "CrynacJavaScript\\mapwrapper_module.js",
+            "line": 120,
+            "description": "Clears a marker of events, removes it from the map and the marketmarkers array.",
+            "itemtype": "method",
+            "name": "removeMarker",
+            "params": [
+                {
+                    "name": "marker",
+                    "description": "Marker to be removed from the map.",
+                    "type": "GoogleMarker"
+                }
+            ],
+            "class": "MapWrapper",
+            "module": "Services"
+        },
+        {
+            "file": "CrynacJavaScript\\rest_module.js",
+            "line": 16,
+            "description": "Where the REST calls should be made.",
+            "itemtype": "property",
+            "name": "URL_DOMAIN",
+            "final": 1,
+            "class": "RestModule",
+            "module": "Services"
+        },
+        {
+            "file": "CrynacJavaScript\\rest_module.js",
+            "line": 22,
+            "description": "URL for getting all flea markets.",
+            "itemtype": "property",
+            "name": "URL_GET_ALL_FLEAMARKETS",
+            "final": 1,
+            "class": "RestModule",
+            "module": "Services"
+        },
+        {
+            "file": "CrynacJavaScript\\rest_module.js",
+            "line": 28,
+            "description": "URL for getting a specific market.",
+            "itemtype": "property",
+            "name": "URL_GET_FLEAMARKET",
+            "final": 1,
+            "class": "RestModule",
+            "module": "Services"
+        },
+        {
+            "file": "CrynacJavaScript\\rest_module.js",
+            "line": 34,
+            "description": "URL for getting reviews for a market.",
+            "itemtype": "property",
+            "name": "URL_POST_REVIEW",
+            "final": 1,
+            "class": "RestModule",
+            "module": "Services"
+        },
+        {
+            "file": "CrynacJavaScript\\rest_module.js",
+            "line": 40,
+            "description": "URL for posting a market review.",
+            "itemtype": "property",
+            "name": "URL_POST_MARKET",
+            "final": 1,
+            "class": "RestModule",
+            "module": "Services"
+        },
+        {
+            "file": "CrynacJavaScript\\rest_module.js",
+            "line": 47,
+            "description": "Gets all markets available.",
+            "itemtype": "method",
+            "name": "getAllMarkets",
+            "params": [
+                {
+                    "name": "callback",
+                    "description": "provides a callback of version func(data)",
+                    "type": "Function"
+                },
+                {
+                    "name": "error",
+                    "description": "error callback when something went wrong",
+                    "type": "Function"
+                }
+            ],
+            "class": "RestModule",
+            "module": "Services"
+        },
+        {
+            "file": "CrynacJavaScript\\rest_module.js",
+            "line": 70,
+            "description": "Creates review on rest framework for fleamarket.\n\npre: user needs to be logged in (takes user and pass).\n\npost: Review will be created and put into database for that fleamarket and success function is called unless theres error.",
+            "itemtype": "method",
+            "name": "postMarketReview",
+            "params": [
+                {
+                    "name": "user",
+                    "description": "Username of user from login.",
+                    "type": "String"
+                },
+                {
+                    "name": "pass",
+                    "description": "Password of user from login.",
+                    "type": "String"
+                },
+                {
+                    "name": "fleamarketid",
+                    "description": "Id of the fleamarket.",
+                    "type": "Number"
+                },
+                {
+                    "name": "rating",
+                    "description": "Users rating of the market.",
+                    "type": "Number"
+                },
+                {
+                    "name": "review",
+                    "description": "Users review of the market.",
+                    "type": "String"
+                },
+                {
+                    "name": "success",
+                    "description": "Success callback.",
+                    "type": "Function"
+                },
+                {
+                    "name": "error",
+                    "description": "Error callback when something went wrong.",
+                    "type": "Function"
+                }
+            ],
+            "class": "RestModule",
+            "module": "Services"
+        },
+        {
+            "file": "CrynacJavaScript\\rest_module.js",
+            "line": 90,
+            "description": "Common function to interact with rest framework.\n\npost: Returns result from query of rest framework to success function, if error call error function.",
+            "itemtype": "method",
+            "name": "getData",
+            "params": [
+                {
+                    "name": "component",
+                    "description": "URIComponent of the Crynac url.",
+                    "type": "String"
+                },
+                {
+                    "name": "type",
+                    "description": "Type of the call (GET, PUT, POST, DELETE).",
+                    "type": "String"
+                },
+                {
+                    "name": "success",
+                    "description": "Success callback.",
+                    "type": "Function"
+                },
+                {
+                    "name": "error",
+                    "description": "Error callback when something went wrong.",
+                    "type": "Function"
+                }
+            ],
+            "class": "RestModule",
+            "module": "Services"
+        },
+        {
+            "file": "CrynacJavaScript\\rest_module.js",
+            "line": 113,
+            "description": "Gets a fleamarkets detailed info.\n\npost: Success function will be called with data returned from query.",
+            "itemtype": "method",
+            "name": "getMarket",
+            "params": [
+                {
+                    "name": "fleamarketid",
+                    "description": "Id of fleamarket.",
+                    "type": "Number"
+                },
+                {
+                    "name": "success",
+                    "description": "Success callback will be of the form func(data).",
+                    "type": "Function"
+                },
+                {
+                    "name": "error",
+                    "description": "Error callback when something went wrong.",
+                    "type": "Function"
+                }
+            ],
+            "class": "RestModule",
+            "module": "Services"
+        },
+        {
+            "file": "CrynacJavaScript\\validator_module.js",
+            "line": 17,
+            "description": "Validates address of the form: word whitespace number wildcard/anything.",
+            "itemtype": "method",
+            "name": "validateAddress",
+            "params": [
+                {
+                    "name": "address",
+                    "description": "Address to be validated.",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "returns Return about validation was succesful or not.",
+                "type": "Boolean"
+            },
+            "class": "ValidatorModule",
+            "module": "WebsiteServices"
+        },
+        {
+            "file": "CrynacJavaScript\\validator_module.js",
+            "line": 28,
+            "description": "Validates zipcode and matches exactly 4 numbers.",
+            "itemtype": "method",
+            "name": "validateAddress",
+            "params": [
+                {
+                    "name": "zipcode",
+                    "description": "Zipcode to be validated.",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "returns Return about validation was succesful or not.",
+                "type": "Boolean"
+            },
+            "class": "ValidatorModule",
+            "module": "WebsiteServices"
+        },
+        {
+            "file": "CrynacJavaScript\\validator_module.js",
+            "line": 39,
+            "description": "Validates city and matches a word and allows whitespace and hyphen.",
+            "itemtype": "method",
+            "name": "validateCity",
+            "params": [
+                {
+                    "name": "city",
+                    "description": "City to be validated.",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "returns Returns about validation was succesful or not.",
+                "type": "Boolean"
+            },
+            "class": "ValidatorModule",
+            "module": "WebsiteServices"
+        },
+        {
+            "file": "CrynacJavaScript\\validator_module.js",
+            "line": 51,
+            "description": "Validates market description, right now restriction is only a length max of 200 chars.",
+            "itemtype": "method",
+            "name": "validateMarketDescription",
+            "params": [
+                {
+                    "name": "description",
+                    "description": "Description to be validated.",
+                    "type": "String"
+                }
+            ],
+            "return": {
+                "description": "returns Return about validation was succesful or not.",
+                "type": "Boolean"
+            },
+            "class": "ValidatorModule",
+            "module": "WebsiteServices"
+        },
+        {
+            "file": "navigation_module.js",
+            "line": 9,
+            "description": "Function handling the navigate to event for the different platforms.\n\npre: Phonegap is initialized.\n\npost: A native application responsible for handling map events is opened.",
+            "itemtype": "method",
+            "name": "navigateTo",
+            "params": [
+                {
+                    "name": "lat",
+                    "description": "Latitude of position to navigate to.",
+                    "type": "Number"
+                },
+                {
+                    "name": "lng",
+                    "description": "Longitude of position to navigate to.",
+                    "type": "Number"
+                },
+                {
+                    "name": "name",
+                    "description": "Name of position to navigate to.",
+                    "type": "String"
+                },
+                {
+                    "name": "successFn",
+                    "description": "Function to run after position was navigated to.",
+                    "type": "Function"
+                },
+                {
+                    "name": "errorFn",
+                    "description": "Function run when if an error happened (exception was thrown).",
+                    "type": "Function"
+                }
+            ],
+            "class": "NavigationModule",
+            "module": "Services"
+        },
+        {
+            "file": "navigationmenu.js",
+            "line": 29,
+            "description": "Function for initializing the navigationmenu.\n\nOverrides the mobile swipe event and triggers navigation menu open on swipe right.",
+            "itemtype": "method",
+            "name": "init",
+            "class": "NavigationMenu",
+            "module": "ViewModels"
+        },
+        {
+            "file": "navigationmenu.js",
+            "line": 79,
+            "description": "Initializes the menu inside the navigation menu.",
+            "itemtype": "method",
+            "name": "show",
+            "class": "NavigationMenu",
+            "module": "ViewModels"
+        },
+        {
+            "file": "ngmodule_controllers.js",
+            "line": 28,
+            "description": "Categories available to sort by.",
+            "itemtype": "property",
+            "name": "categories",
+            "class": "FleamarketListCtrl",
+            "module": "ViewModels"
+        },
+        {
+            "file": "ngmodule_controllers.js",
+            "line": 44,
+            "description": "Item categories available to sort by.",
+            "itemtype": "property",
+            "name": "itemsAvailable",
+            "class": "FleamarketListCtrl",
+            "module": "ViewModels"
+        },
+        {
+            "file": "ngmodule_controllers.js",
+            "line": 63,
+            "description": "The flea markets and their data.",
+            "itemtype": "property",
+            "name": "fleamarkets",
+            "class": "FleamarketListCtrl",
+            "module": "ViewModels"
+        },
+        {
+            "file": "ngmodule_controllers.js",
+            "line": 88,
+            "description": "Helper function: Checks for the flea market or the name of its city contains the search string.\n\nFor filtering fleamarket on category, items and text in searchbox.\n\nCan't use 'just' normal filtering since have special case \"all\".",
+            "itemtype": "method",
+            "name": "_nameOrCityContainsString",
+            "params": [
+                {
+                    "name": "fleamarket",
+                    "description": "Fleamarket to investigate.",
+                    "type": "Object"
+                },
+                {
+                    "name": "searchText",
+                    "description": "Text to search by.",
+                    "type": "String"
+                }
+            ],
+            "class": "FleamarketListCtrl",
+            "module": "ViewModels"
+        },
+        {
+            "file": "ngmodule_controllers.js",
+            "line": 108,
+            "description": "Helper function: Checks for the flea market contains atleast one of the items selected.",
+            "itemtype": "method",
+            "name": "_containsItems",
+            "params": [
+                {
+                    "name": "fleamarket",
+                    "description": "Fleamarket to check.",
+                    "type": "Object"
+                }
+            ],
+            "access": "private",
+            "tagname": "",
+            "class": "FleamarketListCtrl",
+            "module": "ViewModels"
+        },
+        {
+            "file": "ngmodule_controllers.js",
+            "line": 123,
+            "description": "Checks that a flea market should be shown according to filtering.",
+            "itemtype": "method",
+            "name": "shouldShow",
+            "params": [
+                {
+                    "name": "fleamarket",
+                    "description": "Fleamarket to show.",
+                    "type": "Object"
+                }
+            ],
+            "class": "FleamarketListCtrl",
+            "module": "ViewModels"
+        },
+        {
+            "file": "ngmodule_controllers.js",
+            "line": 144,
+            "description": "Function when list is being pushed/clicked - Navigate to info page.",
+            "itemtype": "method",
+            "name": "showFleamarketInfo",
+            "parram": "id Id of fleamarket.",
+            "params": [
+                {
+                    "name": "shouldNotChangePage",
+                    "description": "Is used for unit testing where page change is not desired."
+                }
+            ],
+            "class": "FleamarketListCtrl",
+            "module": "ViewModels"
+        },
+        {
+            "file": "ngmodule_controllers.js",
+            "line": 160,
+            "description": "Item category selection.",
+            "itemtype": "method",
+            "name": "itemSelect",
+            "params": [
+                {
+                    "name": "item",
+                    "description": "Item that is selected."
+                }
+            ],
+            "class": "FleamarketListCtrl",
+            "module": "ViewModels"
+        },
+        {
+            "file": "ngmodule_directives.js",
+            "line": 18,
+            "description": "Refreshes element after view have been updated by AngularJS.",
+            "itemtype": "method",
+            "name": "jqmRefresh",
+            "class": "FleaDirectives",
+            "module": "Directives"
+        },
+        {
+            "file": "ngmodule_directives.js",
+            "line": 33,
+            "description": "Description: Refreshes selectbox after view have been updated by AngularJS.",
+            "itemtype": "method",
+            "name": "selectRefresh",
+            "class": "FleaDirectives",
+            "module": "Directives"
+        },
+        {
+            "file": "ngmodule_filters.js",
+            "line": 12,
+            "description": "Truncation of string.\n\nSource: http://jsfiddle.net/tUyyx/ slightly modificated.",
+            "itemtype": "method",
+            "name": "truncate",
+            "params": [
+                {
+                    "name": "text",
+                    "description": "Text to be truncated.",
+                    "type": "String"
+                },
+                {
+                    "name": "length",
+                    "description": "Length to truncate to (default 10).",
+                    "type": "Number"
+                },
+                {
+                    "name": "end",
+                    "description": "String to put after the truncated string (default: \"...\").",
+                    "type": "String"
+                }
+            ],
+            "class": "FleaFilters",
+            "module": "Services"
+        },
+        {
+            "file": "ngmodule_mock_services.js",
+            "line": 16,
+            "description": "Description: REST services for getting fleamarkets.\n\nAt current state can only be used to get list of all markets and not get specific market.",
+            "itemtype": "method",
+            "name": "RESTFleamarkets (module.factory)",
+            "class": "(MOCK)FleaServices",
+            "module": "Services"
+        },
+        {
+            "file": "ngmodule_services.js",
+            "line": 17,
+            "description": "REST services for getting fleamarkets.\n\nAt current state can only be used to get list of all markets and not get specific market.",
+            "itemtype": "method",
+            "name": "RESTFleamarkets",
+            "class": "FleaServices",
+            "module": "Services"
+        },
+        {
+            "file": "view_fleamarket-info_module.js",
+            "line": 38,
+            "description": "Initializes page.\n\npost: Initialised with provided id and data pulled for id and put on page.",
+            "itemtype": "method",
+            "name": "init",
+            "class": "ViewFleamarketInfo",
+            "module": "Tests"
+        },
+        {
+            "file": "view_fleamarket-info_module.js",
+            "line": 62,
+            "description": "Selects a number of stars for giving a rating.",
+            "itemtype": "method",
+            "name": "selectStar",
+            "params": [
+                {
+                    "name": "number",
+                    "description": "Number of stars to highlight.",
+                    "type": "Number"
+                }
+            ],
+            "class": "ViewFleamarketInfo",
+            "module": "Tests"
+        },
+        {
+            "file": "view_fleamarket-info_module.js",
+            "line": 78,
+            "description": "Helper function for use when creating the stars.\n\nWrapping each function creation in a new function (closures in loop).\n\nSelects and sets starvalue for use when sending a review.",
+            "itemtype": "method",
+            "name": "starClickFunc",
+            "params": [
+                {
+                    "name": "i",
+                    "description": "Number of stars to select.",
+                    "type": "Number"
+                }
+            ],
+            "class": "ViewFleamarketInfo",
+            "module": "Tests"
+        },
+        {
+            "file": "view_fleamarket-info_module.js",
+            "line": 97,
+            "description": "Show a number of rating stars on a div.\n\nDetermines if they should be clickable for submitting a rating.",
+            "itemtype": "method",
+            "name": "showStars",
+            "params": [
+                {
+                    "name": "number",
+                    "description": "Number of stars to show.",
+                    "type": "Number"
+                },
+                {
+                    "name": "attachdiv",
+                    "description": "The div the stars are to be attached to.\n$param {Boolean} clickable Are the stars for setting the starvalue or not (when submitting a rating).",
+                    "type": "String"
+                }
+            ],
+            "class": "ViewFleamarketInfo",
+            "module": "Tests"
+        },
+        {
+            "file": "view_fleamarket-info_module.js",
+            "line": 122,
+            "description": "Function called when clicking the navigate button.",
+            "itemtype": "method",
+            "name": "navigateButtonClick",
+            "class": "ViewFleamarketInfo",
+            "module": "Tests"
+        },
+        {
+            "file": "view_fleamarket-info_module.js",
+            "line": 131,
+            "description": "Function called when clicking the review button.",
+            "itemtype": "method",
+            "name": "reviewButtonClick",
+            "class": "ViewFleamarketInfo",
+            "module": "Tests"
+        },
+        {
+            "file": "view_fleamarket-info_module.js",
+            "line": 169,
+            "description": "Function for setting a response text to the user.",
+            "itemtype": "method",
+            "name": "setReviewResponseText",
+            "params": [
+                {
+                    "name": "text",
+                    "description": "Informative text to be shown to the user.",
+                    "type": "String"
+                },
+                {
+                    "name": "color",
+                    "description": "Color of the text.",
+                    "type": "String"
+                }
+            ],
+            "class": "ViewFleamarketInfo",
+            "module": "Tests"
+        },
+        {
+            "file": "view_fleamarket-info_module.js",
+            "line": 183,
+            "description": "Puts the mean rating of the market in the top and the reviews in the bottom.",
+            "itemtype": "method",
+            "name": "putReviews",
+            "params": [
+                {
+                    "name": "fleamarket",
+                    "description": "takes a list of fleamarket review objects .",
+                    "type": "Object"
+                }
+            ],
+            "class": "ViewFleamarketInfo",
+            "module": "Tests"
+        },
+        {
+            "file": "view_fleamarket-info_module.js",
+            "line": 210,
+            "description": "Show all the data on the page.",
+            "itemtype": "method",
+            "name": "putDescription",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "Takes a single fleamarket object.",
+                    "type": "Object"
+                }
+            ],
+            "class": "ViewFleamarketInfo",
+            "module": "Tests"
+        },
+        {
+            "file": "view_landingpage_module.js",
+            "line": 13,
+            "description": "Change all elements on page according to current language.",
+            "itemtype": "method",
+            "name": "language",
+            "class": "ViewLandingPage",
+            "module": "ViewModels"
+        },
+        {
+            "file": "view_landingpage_module.js",
+            "line": 32,
+            "description": "Initializes buttons.",
+            "itemtype": "method",
+            "name": "buttons",
+            "class": "ViewLandingPage",
+            "module": "ViewModels"
+        },
+        {
+            "file": "view_landingpage_module.js",
+            "line": 49,
+            "description": "Initializes the class.",
+            "itemtype": "method",
+            "name": "init",
+            "class": "ViewLandingPage",
+            "module": "ViewModels"
+        },
+        {
+            "file": "view_marketmap_module.js",
+            "line": 12,
+            "description": "Initializes the ViewMarketMap module.",
+            "itemtype": "method",
+            "name": "init",
+            "class": "ViewMarketMap",
+            "module": "ViewModels"
+        },
+        {
+            "file": "view_marketmap_module.js",
+            "line": 47,
+            "description": "Populates the map with all of our markets.\n\npre: Map should be initialized.",
+            "itemtype": "method",
+            "name": "populateMarketMap",
+            "params": [
+                {
+                    "name": "markets",
+                    "description": "A list of markets with every market as a javascript object.",
+                    "type": "Object"
+                }
+            ],
+            "class": "ViewMarketMap",
+            "module": "ViewModels"
+        },
+        {
+            "file": "view_marketmap_module.js",
+            "line": 89,
+            "description": "Adds the users current position to the map and zooms into the location.\n\npre: Map should be initialized.",
+            "itemtype": "method",
+            "name": "addCurrentLocationMarker",
+            "params": [
+                {
+                    "name": "lat",
+                    "description": "Latitude of self.",
+                    "type": "Number"
+                },
+                {
+                    "name": "lng",
+                    "description": "Longitude of self",
+                    "type": "Number"
+                }
+            ],
+            "class": "ViewMarketMap",
+            "module": "ViewModels"
+        }
+    ],
+    "warnings": [
+        {
+            "message": "unknown tag: parram",
+            "line": " ngmodule_controllers.js:144"
+        },
+        {
+            "message": "unknown tag: viewmodels",
+            "line": " view_fleamarket-info_module.js:2"
+        }
+    ]
+}

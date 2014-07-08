@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CrynacJavaScript\language_module.js - Loppen</title>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
+    <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
+    <link rel="shortcut icon" type="image/png" href="../assets/favicon.png">
+    <script src="http://yui.yahooapis.com/combo?3.9.1/build/yui/yui-min.js"></script>
+</head>
+<body class="yui3-skin-sam">
+
+<div id="doc">
+    <div id="hd" class="yui3-g header">
+        <div class="yui3-u-3-4">
+            
+                <h1><img src="..\(Logo)LoppenV2.png" title="Loppen"></h1>
+            
+        </div>
+        <div class="yui3-u-1-4 version">
+            <em>API Docs for: 0.8.2</em>
+        </div>
+    </div>
+    <div id="bd" class="yui3-g">
+
+        <div class="yui3-u-1-4">
+            <div id="docs-sidebar" class="sidebar apidocs">
+                <div id="api-list">
+    <h2 class="off-left">APIs</h2>
+    <div id="api-tabview" class="tabview">
+        <ul class="tabs">
+            <li><a href="#api-classes">Classes</a></li>
+            <li><a href="#api-modules">Modules</a></li>
+        </ul>
+
+        <div id="api-tabview-filter">
+            <input type="search" id="api-filter" placeholder="Type to filter APIs">
+        </div>
+
+        <div id="api-tabview-panel">
+            <ul id="api-classes" class="apis classes">
+            
+                <li><a href="../classes/(MOCK)FleaServices.html">(MOCK)FleaServices</a></li>
+            
+                <li><a href="../classes/AppModule.html">AppModule</a></li>
+            
+                <li><a href="../classes/Auth.html">Auth</a></li>
+            
+                <li><a href="../classes/FleaDirectives.html">FleaDirectives</a></li>
+            
+                <li><a href="../classes/FleaFilters.html">FleaFilters</a></li>
+            
+                <li><a href="../classes/FleamarketListCtrl.html">FleamarketListCtrl</a></li>
+            
+                <li><a href="../classes/FleaServices.html">FleaServices</a></li>
+            
+                <li><a href="../classes/GeocoderWrapper.html">GeocoderWrapper</a></li>
+            
+                <li><a href="../classes/HelloWorld.html">HelloWorld</a></li>
+            
+                <li><a href="../classes/LanguageModule.html">LanguageModule</a></li>
+            
+                <li><a href="../classes/MapWrapper.html">MapWrapper</a></li>
+            
+                <li><a href="../classes/NavigationMenu.html">NavigationMenu</a></li>
+            
+                <li><a href="../classes/Navigationmenu.html">Navigationmenu</a></li>
+            
+                <li><a href="../classes/NavigationModule.html">NavigationModule</a></li>
+            
+                <li><a href="../classes/RestModule.html">RestModule</a></li>
+            
+                <li><a href="../classes/ValidatorModule.html">ValidatorModule</a></li>
+            
+                <li><a href="../classes/ViewFleamarketInfo.html">ViewFleamarketInfo</a></li>
+            
+                <li><a href="../classes/ViewLandingPage.html">ViewLandingPage</a></li>
+            
+                <li><a href="../classes/ViewMarketMap.html">ViewMarketMap</a></li>
+            
+            </ul>
+
+            <ul id="api-modules" class="apis modules">
+            
+                <li><a href="../modules/Bootstrappers.html">Bootstrappers</a></li>
+            
+                <li><a href="../modules/Directives.html">Directives</a></li>
+            
+                <li><a href="../modules/Services.html">Services</a></li>
+            
+                <li><a href="../modules/Tests.html">Tests</a></li>
+            
+                <li><a href="../modules/ViewModels.html">ViewModels</a></li>
+            
+                <li><a href="../modules/WebsiteServices.html">WebsiteServices</a></li>
+            
+            </ul>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
+        <div class="yui3-u-3-4">
+                <div id="api-options">
+        Show:
+        <label for="api-show-inherited">
+            <input type="checkbox" id="api-show-inherited" checked>
+            Inherited
+        </label>
+
+        <label for="api-show-protected">
+            <input type="checkbox" id="api-show-protected">
+            Protected
+        </label>
+
+        <label for="api-show-private">
+            <input type="checkbox" id="api-show-private">
+            Private
+        </label>
+        <label for="api-show-deprecated">
+            <input type="checkbox" id="api-show-deprecated">
+            Deprecated
+        </label>
+
+    </div>
+
+
+            <div class="apidocs">
+                <div id="docs-main">
+                    <div class="content">
+                        <h1 class="file-heading">File: CrynacJavaScript\language_module.js</h1>
+
+<div class="file">
+    <pre class="code prettyprint linenums">
+﻿/* Should only be loaded with RequireJS. */
+/**
+ *  Module for getting language specific strings for use in UI.
+ *	@class LanguageModule
+ *  @module Services
+ */
+define([], function()
+{
+    return {
+        languageInUse: &quot;dk&quot;,
+        languages: [&quot;en&quot;, &quot;dk&quot;],
+
+        /// Used for containing language strings.
+        library: {
+            &quot;en&quot;:
+            {
+                &quot;home_title&quot;: &quot;Start&quot;,
+                &quot;navigation_menu_item_home_title&quot;: &quot;Home&quot;,
+                &quot;navigation_menu_item_map_title&quot;: &quot;Map&quot;,
+                &quot;navigation_menu_item_about_title&quot;: &quot;About&quot;,
+                &quot;navigation_menu_item_marketlist_title&quot;: &quot;Market list&quot;,
+                &quot;marketlist_title&quot;: &quot;Markets&quot;,
+                &quot;marketlist_search_text&quot;: &quot;Find&quot;,
+                &quot;marketlist_category_header&quot;: &quot;Categories&quot;,
+                &quot;marketlist_category_all&quot;: &quot;All&quot;,
+                &quot;marketlist_category_flea&quot;: &quot;Fleamarket&quot;,
+                &quot;marketlist_category_charity&quot;: &quot;Charity Shop&quot;,
+                &quot;marketlist_category_trunk&quot;: &quot;Trunk Sale&quot;,
+                &quot;marketlist_category_other&quot;: &quot;Other&quot;,
+                &quot;marketlist_table_header_name&quot;: &quot;Name&quot;,
+                &quot;marketlist_table_header_city&quot;: &quot;City&quot;,
+                &quot;marketlist_loading_title&quot;: &quot;Loading&quot;,
+                &quot;marketlist_loading_message&quot;: &quot;Please wait...&quot;,
+                &quot;marketlist_item_clothes&quot;: &quot;Clothes&quot;,
+                &quot;marketlist_item_furniture&quot;: &quot;Furniture&quot;,
+                &quot;marketlist_item_antic&quot;: &quot;Antic&quot;,
+                &quot;marketlist_item_other&quot;: &quot;Other&quot;,
+                &quot;marketlist_server_error_defaultmsg&quot;: &quot;Could not connect to server.&quot;,
+                &quot;marketmap_title&quot; : &quot;Flea Map&quot;,
+                &quot;marketmap_spinnertext&quot;: &quot;Loading markets&quot;,
+				&quot;marketinfo_title&quot;: &quot;Market Info&quot;,
+				&quot;marketinfo_info_title&quot;: &quot;Info&quot;,
+				&quot;marketinfo_info_name&quot;: &quot;Name&quot;,
+				&quot;marketinfo_info_created&quot;: &quot;Created:&quot;,
+				&quot;marketinfo_info_modified&quot;: &quot;Modified:&quot;,
+				&quot;marketinfo_description_title&quot;: &quot;Description&quot;,
+				&quot;marketinfo_address_title&quot;: &quot;Address&quot;,
+				&quot;marketinfo_openings_title&quot;: &quot;Openings&quot;,
+                &quot;marketinfo_address_navigate&quot;: &quot;Navigate&quot;,
+                &quot;marketinfo_review_title&quot;: &quot;Rate market&quot;,
+                &quot;marketinfo_textreview_label&quot;: &quot;Your review&quot;,
+                &quot;marketinfo_userreviews_header&quot;: &quot;Reviews&quot;,
+                &quot;marketinfo_review_button&quot;: &quot;Review&quot;,
+                &quot;marketinfo_post_review_inputerror&quot;: &quot;Please rate the market and fill out the review box&quot;,
+                &quot;marketinfo_post_review_success&quot; : &quot;Your review is accepted&quot;,
+                &quot;landingpage_header&quot;: &quot;Flea&quot;,
+                &quot;landingpage_subheader&quot;: &quot;The one app for fleamarket-lovers&quot;,
+                &quot;landingpage_infotext&quot;: &quot;&lt;p&gt;With Flea you can:&quot;+
+                        &quot;&lt;ul&gt;&quot;+
+                        &quot;&lt;li&gt; Find markets close to you&lt;/li&gt;&quot;+
+                        &quot;&lt;li&gt; Find markets by category, type, and hours&lt;/li&gt;&quot;+
+                        &quot;&lt;li&gt; Keep yourself updated with new markets&lt;/li&gt;&quot;+
+                        &quot;&lt;li&gt; Rate and comments markets you like&lt;/li&gt;&quot;+
+                    &quot;&lt;/ul&gt;&quot;+
+                    &quot;&lt;/p&gt;&quot;,
+                &quot;landingpage_platformstext&quot;: &quot;Flea is available for several platforms:&quot;,
+                &quot;landingpage_settingsbutton&quot;: &quot;Settings&quot;,
+                &quot;landingpage_loginbutton&quot;: &quot;Login&quot;,
+                &quot;landingpage_loginbutton_logout&quot;: &quot;Logout&quot;,
+                &quot;landingpage_navigationtext&quot;: &quot;Swipe the menu out from the left to navigate.&quot;,
+                &quot;marketmap_currentlocationtext&quot;: &quot;Your position&quot;,
+                &quot;marketmap_getmarkets_error&quot;: &quot;Could not retrieve markets&quot;,
+                &quot;about_title&quot;: &quot;About&quot;,
+                &quot;about_header_about&quot;: &quot;About us&quot;,
+                &quot;about_header_vision&quot;: &quot;Our vision&quot;,
+                &quot;about_header_contact&quot;: &quot;Contact&quot;,
+                &quot;about_text_about&quot;: &quot;Three engineering students from University of Aarhus and a journalist from Stickelbergs Bureau&quot;,
+                &quot;about_text_vision&quot;: &quot;Creating a crossplatform app for finding all sorts of markets.&quot;,
+                &quot;about_text_contact&quot;: &quot;We&#x27;d love to receive feedback at development@crynac.com&quot;,
+				&quot;auth_login_dialog_title&quot;: &quot;Login&quot;,
+				&quot;auth_login_dialog_text_username&quot;: &quot;Username&quot;,
+				&quot;auth_login_dialog_text_password&quot;: &quot;Password&quot;,
+				&quot;auth_login_dialog_button_login&quot;: &quot;Login&quot;,
+				&quot;auth_login_dialog_button_change&quot;: &quot;Go to register&quot;,
+				&quot;auth_register_dialog_title&quot;: &quot;Register&quot;,
+				&quot;auth_register_dialog_text_username&quot;: &quot;Username&quot;,
+				&quot;auth_register_dialog_text_password&quot;: &quot;Password&quot;,
+				&quot;auth_register_dialog_button_register&quot;: &quot;Register&quot;,
+				&quot;auth_register_dialog_button_change&quot;: &quot;Go to login&quot;,
+				&quot;auth_logout_dialog_text&quot;: &quot;Would you like to log out?&quot;,
+				&quot;rest_error&quot;: &quot;Error: communicating with rest framework&quot;,
+				&quot;empty_field&quot;: &quot;One or more fields are empty&quot;
+            },
+            &quot;dk&quot;:
+            {
+                &quot;home_title&quot;: &quot;Start&quot;,
+                &quot;navigation_menu_item_home_title&quot;: &quot;Hjem&quot;,
+                &quot;navigation_menu_item_map_title&quot;: &quot;Kort&quot;,
+                &quot;navigation_menu_item_about_title&quot;: &quot;Om os&quot;,
+                &quot;navigation_menu_item_marketlist_title&quot;: &quot;Markedsliste&quot;,
+                &quot;marketlist_title&quot;: &quot;Markeder&quot;,
+                &quot;marketlist_search_text&quot;: &quot;Find&quot;,
+                &quot;marketlist_category_header&quot;: &quot;Kategorier&quot;,
+                &quot;marketlist_category_all&quot;: &quot;Alle&quot;,
+                &quot;marketlist_category_flea&quot;: &quot;Loppemarked&quot;,
+                &quot;marketlist_category_charity&quot;: &quot;Genbrugsbutik&quot;,
+                &quot;marketlist_category_trunk&quot;: &quot;Bagagerumssalg&quot;,
+                &quot;marketlist_category_other&quot;: &quot;Andet&quot;,
+                &quot;marketlist_table_header_name&quot;: &quot;Navn&quot;,
+                &quot;marketlist_table_header_city&quot;: &quot;By&quot;,
+                &quot;marketlist_loading_title&quot;: &quot;Loader&quot;,
+                &quot;marketlist_loading_message&quot;: &quot;Vent venligst...&quot;,
+                &quot;marketlist_item_clothes&quot;: &quot;Tøj&quot;,
+                &quot;marketlist_item_furniture&quot;: &quot;Møbler&quot;,
+                &quot;marketlist_item_antic&quot;: &quot;Antik&quot;,
+                &quot;marketlist_item_other&quot;: &quot;Andet&quot;,
+                &quot;marketlist_server_error_defaultmsg&quot;: &quot;Kunne ikke forbinde til serveren.&quot;,
+                &quot;marketmap_title&quot; : &quot;Loppe Kort&quot;,
+                &quot;marketmap_spinnertext&quot;: &quot;Indlæser markeder&quot;,
+				&quot;marketinfo_title&quot;: &quot;Marked Info&quot;,
+				&quot;marketinfo_info_title&quot;: &quot;Info&quot;,
+				&quot;marketinfo_info_name&quot;: &quot;Navn&quot;,
+				&quot;marketinfo_info_created&quot;: &quot;Lavet:&quot;,
+				&quot;marketinfo_info_modified&quot;: &quot;Ændret:&quot;,
+				&quot;marketinfo_description_title&quot;: &quot;Beskrivelse&quot;,
+				&quot;marketinfo_address_title&quot;: &quot;Addresse&quot;,
+				&quot;marketinfo_openings_title&quot;: &quot;Åbningstider&quot;,
+                &quot;marketinfo_address_navigate&quot;: &quot;Naviger&quot;,
+                &quot;marketinfo_review_title&quot;: &quot;Bedøm marked&quot;,
+                &quot;marketinfo_textreview_label&quot;: &quot;Din anmeldelse&quot;,
+                &quot;marketinfo_userreviews_header&quot;: &quot;Bedømmelser&quot;,
+                &quot;marketinfo_review_button&quot;: &quot;Bedøm&quot;,
+                &quot;marketinfo_post_review_inputerror&quot;: &quot;Check venligst du har bedømt markedet og udfyldt anmeldelse&quot;,
+                &quot;marketinfo_post_review_success&quot; : &quot;Din anmeldelse er accepteret&quot;,
+                &quot;landingpage_header&quot;: &quot;Loppen&quot;,
+                &quot;landingpage_subheader&quot;: &quot;Appen til loppemarkeds-elskere&quot;,
+                &quot;landingpage_infotext&quot;: &quot;&lt;p&gt;Med Loppen kan du:&quot;+
+                        &quot;&lt;ul&gt;&quot;+
+                        &quot;&lt;li&gt; Finde markeder tæt på dig&lt;/li&gt;&quot;+
+                        &quot;&lt;li&gt; Finde markeder ud fra kategori, type og tidspunkter&lt;/li&gt;&quot;+
+                        &quot;&lt;li&gt; Holde dig opdateret med nye markeder&lt;/li&gt;&quot;+
+                        &quot;&lt;li&gt; Rate og kommentere markeder du synes godt om&lt;/li&gt;&quot;+
+                    &quot;&lt;/ul&gt;&quot;+
+                    &quot;&lt;/p&gt;&quot;,
+                &quot;landingpage_platformstext&quot;: &quot;Loppen fås til flere platforme:&quot;,
+                &quot;landingpage_settingsbutton&quot;: &quot;Indstillinger&quot;,
+                &quot;landingpage_loginbutton&quot;: &quot;Login&quot;,
+                &quot;landingpage_loginbutton_logout&quot;: &quot;Logout&quot;,
+                &quot;landingpage_navigationtext&quot;: &quot;Swipe menuen ud fra venstre for at navigere.&quot;,
+                &quot;marketmap_currentlocationtext&quot; : &quot;Din position&quot;,
+                &quot;marketmap_getmarkets_error&quot;: &quot;Kunne ikke hente markeder&quot;,
+                &quot;about_title&quot;: &quot;Om os&quot;,
+                &quot;about_header_about&quot;: &quot;Lidt om os&quot;,
+                &quot;about_header_vision&quot;: &quot;Vores vision&quot;,
+                &quot;about_header_contact&quot;: &quot;Kontakt&quot;,
+                &quot;about_text_about&quot;: &quot;Tre ingeniørstuderende fra Aarhus Universitet og en journalist fra Stickelbergs bureau.&quot;,
+                &quot;about_text_vision&quot;: &quot;At skabe en app man kan bruge til at finde markeder af alle slags der fungerer på flere platforme.&quot;,
+                &quot;about_text_contact&quot;: &quot;Vi modtager gerne ris og ros på development@crynac.com&quot;,
+				&quot;auth_login_dialog_title&quot;: &quot;Login&quot;,
+				&quot;auth_login_dialog_text_username&quot;: &quot;Brugernavn&quot;,
+				&quot;auth_login_dialog_text_password&quot;: &quot;Kodeord&quot;,
+				&quot;auth_login_dialog_button_login&quot;: &quot;Login&quot;,
+				&quot;auth_login_dialog_button_change&quot;: &quot;Gå til registrering&quot;,
+				&quot;auth_register_dialog_title&quot;: &quot;Registrer&quot;,
+				&quot;auth_register_dialog_text_username&quot;: &quot;Brugernavn&quot;,
+				&quot;auth_register_dialog_text_password&quot;: &quot;Kodeord&quot;,
+				&quot;auth_register_dialog_button_register&quot;: &quot;Registrer&quot;,
+				&quot;auth_register_dialog_button_change&quot;: &quot;Gå til login&quot;,
+				&quot;auth_logout_dialog_text&quot;: &quot;Vil du gerne logge ud?&quot;,
+				&quot;rest_error&quot;: &quot;Fejl: kommunikation med rest framework&quot;,
+				&quot;empty_field&quot;: &quot;Et eller flere felter er tomme&quot;
+            }
+        },
+        errorlibrary: {
+            &quot;en&quot;:
+            {
+                0: &quot;No error&quot;,
+                1: &quot;No valid id&quot;,
+                2: &quot;Username length invalid&quot;,
+                3: &quot;Password length invalid&quot;,
+                4: &quot;Invalid email&quot;,
+                5: &quot;User already exists&quot;,
+                6: &quot;Invalid Credentials&quot;,
+                7: &quot;Invalid Credentials&quot;,
+                8: &quot;Unable to parse fleamarket id&quot;,
+                9: &quot;Unable to parse stars&quot;,
+                10: &quot;Invalid stars range&quot;,
+                11: &quot;Review exists&quot;,
+                12: &quot;Review does not exist&quot;,
+                13: &quot;Invalid id&quot;,
+                14: &quot;Review does not exist&quot;,
+                15: &quot;Invalid category&quot;,
+                16: &quot;Invalid latitude&quot;,
+                17: &quot;Invalid longitude&quot;,
+                18: &quot;Invalid fleamarket id&quot;,
+                19: &quot;Unknown fleamarket&quot;,
+                20: &quot;Invalid fleamarket i&quot;,
+                21: &quot;Unknown fleamarke&quot;,
+                22: &quot;Invalid from tim&quot;,
+                23: &quot;Invalid to tim&quot;,
+                24: &quot;Invalid fleamarket i&quot;,
+                25: &quot;Unknown fleamarket or no acces&quot;,
+                26: &quot;Invalid opening id&quot;,
+                27: &quot;Unknown opening or no access&quot;,
+                28: &quot;Invalid opening id&quot;,
+                29: &quot;Unknown opening or no access&quot;
+
+            },
+            &quot;dk&quot;:
+            {
+                0: &quot;Ingen fejl&quot;,
+                1: &quot;Ikke gyldigt id&quot;,
+                2: &quot;Brugernavn længde ugyldig&quot;,
+                3: &quot;Adgangskode længde ugyldig&quot;,
+                4: &quot;Ugyldig mail&quot;,
+                5: &quot;Bruger eksisterer allerede&quot;,
+                6: &quot;Ugyldig legitimation&quot;,
+                7: &quot;Ugyldig legitimation&quot;,
+                8: &quot;Kan ikke parse loppemarked id&quot;,
+                9: &quot;Kan ikke parse ratings stjerner&quot;,
+                10: &quot;Ugyldig stjerne interval&quot;,
+                11: &quot;Anmeldelse eksisterer&quot;,
+                12: &quot;Anmeldelse eksisterer ikke&quot;,
+                13: &quot;Ugyldigt id&quot;,
+                14: &quot;Anmeldelse eksisterer ikke&quot;,
+                15: &quot;Ugyldig kategori&quot;,
+                16: &quot;Ugyldig breddegrad&quot;,
+                17: &quot;Ugyldig længdegrad&quot;,
+                18: &quot;Ugyldigt loppemarkeds id&quot;,
+                19: &quot;Ukendt loppemarked&quot;,
+                20: &quot;Ugyldigt loppemarkeds id&quot;,
+                21: &quot;Ugyldigt loppemarked&quot;,
+                22: &quot;Ugyldigt starttidspunkt&quot;,
+                23: &quot;Ugyldigt sluttidspunkt&quot;,
+                24: &quot;Ugyldigt loppemarkeds id&quot;,
+                25: &quot;Ukendt loppemarked eller ingen adgang&quot;,
+                26: &quot;Ugyldigt åbningstidsobjekt id&quot;,
+                27: &quot;Ukendt åbningstidsobjekt eller ingen adgang&quot;,
+                28: &quot;Ugyldigt åbningstidsobjekt id&quot;,
+                29: &quot;Ukendt åbningstidsobjekt eller ingen adgang&quot;
+
+            }
+        },
+
+        /** 
+         *   Change language used in the module.
+         *
+         *   pre:&#x27;language&#x27; should be one of the values from &#x27;languages&#x27;.
+         *   @method changeLanguage
+         *   @param {String} language Set language to be used .
+         */
+        changeLanguage: function (language)
+        {
+            if (this.languages.indexOf(language) &gt; -1)
+                this.languageInUse = language;
+        },
+
+        /** 
+         *	 Gets a string from the key specified.
+         *   
+         *   pre: The key is specified in the &#x27;library&#x27;.
+         *   
+         *   post: The string for the &#x27;key&#x27; and &#x27;languageInUse&#x27; is returned.(If not found the key is returned.)
+         *   @method getString
+         *   @param {String} key Get UI string from specified key.
+         *   @return {String} returns UI string.
+         */
+        getString: function (key)
+        {
+            // Get string
+            if (!(key in this.library[this.languageInUse]))
+                return (key);
+            else
+                return (this.library[this.languageInUse][key]);
+        },
+        /** 
+         * Gets an error string from the key specified.
+         *
+         *  pre: code is specified as key in the errorlibrary
+         *
+         *  post: The string for the &#x27;code&#x27; and &#x27;languageInUse&#x27; is returned, else the code is returned.
+         *  @method getErrorString
+         *  @param {String} key Get error string from specified key.
+         *  @return {String} Returns error string.
+         */
+        getErrorString: function(code)
+        {
+             // Get string
+            if (!(code in this.errorlibrary[this.languageInUse]))
+                return code;
+            else
+                return this.errorlibrary[this.languageInUse][code];
+        }
+    };
+});
+
+    </pre>
+</div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="../assets/js/yui-prettify.js"></script>
+<script src="../assets/../api.js"></script>
+<script src="../assets/js/api-filter.js"></script>
+<script src="../assets/js/api-list.js"></script>
+<script src="../assets/js/api-search.js"></script>
+<script src="../assets/js/apidocs.js"></script>
+</body>
+</html>

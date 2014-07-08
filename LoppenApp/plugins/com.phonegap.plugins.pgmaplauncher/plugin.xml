@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" id="com.phonegap.plugins.pgmaplauncher" version="3.0.0">
+	<name>PGMapLauncher</name>
+	<description></description>
+	<license>MIT</license>
+	<keywords>WP8, Maps</keywords>
+
+	<engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+
+    <js-module src="www/PGMapLauncher.js" name="PGMapLauncher">
+        <clobbers target="CDV.PGMapLauncher" />
+    </js-module>
+
+    <platform name="wp8">
+    	<config-file target="config.xml" parent="/*">
+    		<feature name="PGMapLauncher">
+    			<param name="wp-package" value="PGMapLauncher"/>
+    		</feature>
+    	</config-file>
+    	<source-file src="src/PGMapLauncher.cs" />
+    </platform>
+</plugin>

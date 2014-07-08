@@ -1,0 +1,54 @@
+{
+    "status": true, "error": 0,
+    "result": 
+    [
+        {
+            "name": "Puppies for sale", "fleamarket_addresses": {"city": "Harlev J"}, "category": "trunk",
+            "fleamarket_items": [{"name": "furniture"}, {"name": "antic"}]
+        },
+        {
+            "name": "Kittens for sale", "fleamarket_addresses": {"city": "Harlev J"}, "category": "trunk",
+            "fleamarket_items": [{"name": "furniture"}, {"name": "antic"}]
+        },
+        {
+            "name": "Bike sale", "fleamarket_addresses": {"city": "Ryomgård"}, "category": "trunk",
+            "fleamarket_items": [{"name": "furniture"}, {"name": "antic"}]
+        },
+        {
+            "name": "Used and new furniture", "fleamarket_addresses": {"city": "Ryomgård"}, "category": "trunk",
+            "fleamarket_items": [{"name": "furniture"}, {"name": "antic"}]
+        },
+        {
+            "name": "Those weird dots for putting under chairs", "fleamarket_addresses": {"city": "Ryomgård"}, "category": "trunk",
+            "fleamarket_items": [{"name": "furniture"}, {"name": "antic"}]
+        },
+        {
+            "name": "Potato sale from trunk", "fleamarket_addresses": {"city": "Aarhus C"}, "category": "trunk",
+            "fleamarket_items": [{"name": "furniture"}, {"name": "antic"}, {"name": "other"}]
+        },
+        {
+            "name": "Church charity sale", "fleamarket_addresses": {"city": "Aarhus V"}, "category": "trunk",
+            "fleamarket_items": [{"name": "furniture"}, {"name": "antic"}, {"name": "other"}]
+        },
+        {
+            "name": "Red Cross:  Aarhus V", "fleamarket_addresses": {"city": "Aarhus V"}, "category": "trunk",
+            "fleamarket_items": [{"name": "furniture"}, {"name": "antic"}]
+        },
+        {
+            "name": "Trunk market", "fleamarket_addresses": {"city": "Aarhus C"}, "category": "trunk",
+            "fleamarket_items": [{"name": "furniture"}, {"name": "antic"}]
+        },
+        {
+            "name": "Hasselager Christmas market", "fleamarket_addresses": {"city": "Hasselager"}, "category": "trunk",
+            "fleamarket_items": [{"name": "furniture"}, {"name": "antic"}]
+        },
+        {
+            "name": "Red Cross:  Aarhus C", "fleamarket_addresses": {"city": "Aarhus C"}, "category": "charity",
+            "fleamarket_items": [{"name": "furniture"}, {"name": "antic"}, {"name": "other"}]
+        },
+        {
+            "name": "Red Cross:  Viby J", "fleamarket_addresses": {"city": "Viby J"}, "category": "charity",
+            "fleamarket_items": [{"name": "furniture"}, {"name": "antic"}, {"name": "charity"}]
+        }
+    ] 
+}

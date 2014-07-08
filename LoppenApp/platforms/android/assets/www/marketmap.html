@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+    Description: page with googlemap over available markets
+-->
+<html>
+    <head>
+        <!-- Site Meta Data -->
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-mdpi" />
+        <title>Loppe Kort</title>
+
+        <!-- Resources -->
+        <link rel="stylesheet" type="text/css" href="css/jquery-impromptu.css" />
+        <link rel="stylesheet" type="text/css" href="css/themes/default/jquery.mobile.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery-mobile.css">
+        <link rel="stylesheet" type="text/css" href="css/site.css">
+        <script src="cordova.js"></script><!-- ADDED EXPLICIT -->
+        <script src="js/require.js"></script>
+        <script type="text/javascript">
+            require(["js/default-js.js"], function()
+            {
+                require(["view_marketmap_module"], function (view)
+                {
+                    var view = new view();
+                    view.init();
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="page" data-role="page" data-title="Market Map" data-theme="a">
+            <!-- Header -->
+            <div data-role="header">
+                <a href="#left-panel" data-icon="bars" class="ui-nodisc-icon">Menu</a>
+                <h1 id="marketmap-header"></h1>
+            </div>
+
+            <!-- Content -->
+            <div data-role="content" id="marketmap-content">
+                <div id="spinner-background">
+                    <div id="spinner-overlay">
+                        <img id="spinner" src="css/images/ajax-loader.gif"></img>
+                        <p id="spinner-text"></p>
+                    </div>
+                </div>
+                <div id="marketmap-canvas"></div>
+            </div>
+
+            <!-- Navigation panel -->
+            <div data-role="panel" id="left-panel" data-position="left" data-display="push" data-theme="b">
+                <ul data-role="listview" class="navigationMenu"></ul>
+            </div>
+        </div>
+    </body>
+</html>

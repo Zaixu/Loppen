@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="59a5773e5e00433dad7a4bde07338f11" Name="Diagram1" ZoomLevel="80">
+        <EntityTypeShape EntityType="RestModel.fleamarket_addresses" Width="1.5" PointX="7.9998482335358156" PointY="13.031763708699385" />
+        <EntityTypeShape EntityType="RestModel.fleamarket_items" Width="1.5" PointX="9.41875517620647" PointY="18.614035704459081" />
+        <EntityTypeShape EntityType="RestModel.fleamarket_openings" Width="1.5" PointX="10.530365080819635" PointY="14.17259942655107" />
+        <EntityTypeShape EntityType="RestModel.fleamarket_reviews" Width="1.5" PointX="3.0480956915058641" PointY="2.1598009626193906" />
+        <EntityTypeShape EntityType="RestModel.fleamarkets" Width="1.5" PointX="1.6686554763785821" PointY="13.332109114775484" />
+        <EntityTypeShape EntityType="RestModel.users" Width="1.5" PointX="9.46612220512057" PointY="19.609346667122722" />
+        <AssociationConnector Association="RestModel.fk_fleamarkets_fleamarket_addresses" />
+        <AssociationConnector Association="RestModel.fk_fleamarket_openings_fleamarkets1" />
+        <AssociationConnector Association="RestModel.fk_fleamarkets_reviews_fleamarkets1" />
+        <AssociationConnector Association="RestModel.fk_fleamarkets_reviews_users1" />
+        <AssociationConnector Association="RestModel.fk_fleamarkets_users1" />
+        <AssociationConnector Association="RestModel.fleamarkets_has_fleamarket_items" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

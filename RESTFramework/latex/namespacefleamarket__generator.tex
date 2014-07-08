@@ -1,0 +1,76 @@
+\hypertarget{namespacefleamarket__generator}{\section{fleamarket\-\_\-generator Namespace Reference}
+\label{namespacefleamarket__generator}\index{fleamarket\-\_\-generator@{fleamarket\-\_\-generator}}
+}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{namespacefleamarket__generator_a0bcc51456daf91e8bc04c5a8969ad21a}{get\-\_\-coordinates}
+\item 
+def \hyperlink{namespacefleamarket__generator_a130e9f8b2899bb5fa42adfb5fcc1231a}{load\-\_\-pfp}
+\item 
+\hypertarget{namespacefleamarket__generator_ae3543a5cf330fca1e83ca8cc772d0b54}{def {\bfseries parse\-\_\-opening}}\label{namespacefleamarket__generator_ae3543a5cf330fca1e83ca8cc772d0b54}
+
+\item 
+def \hyperlink{namespacefleamarket__generator_a81054b562415c2decf8d4c21ad42f1ad}{make\-\_\-fleamarket\-\_\-sql}
+\item 
+def \hyperlink{namespacefleamarket__generator_ab1981a1f1d6d772f2c2f2ae9cf6aacde}{parse\-\_\-chunk}
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{namespacefleamarket__generator_a268c913fed291be5d6c7980909e8d34b}{tuple {\bfseries file} = open(\char`\"{}fleamarket\-Chunk.\-pfp\char`\"{}, \char`\"{}r\char`\"{})}\label{namespacefleamarket__generator_a268c913fed291be5d6c7980909e8d34b}
+
+\item 
+\hypertarget{namespacefleamarket__generator_aa41f33595ea7867a05d31e260315e8ce}{tuple {\bfseries fleamarket\-\_\-chunk} = \hyperlink{namespacefleamarket__generator_a130e9f8b2899bb5fa42adfb5fcc1231a}{load\-\_\-pfp}(file)}\label{namespacefleamarket__generator_aa41f33595ea7867a05d31e260315e8ce}
+
+\item 
+\hypertarget{namespacefleamarket__generator_a062ae1c4c243aa006721285156ddc93a}{tuple {\bfseries sql} = \hyperlink{namespacefleamarket__generator_ab1981a1f1d6d772f2c2f2ae9cf6aacde}{parse\-\_\-chunk}(fleamarket\-\_\-chunk)}\label{namespacefleamarket__generator_a062ae1c4c243aa006721285156ddc93a}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyVerb}    Description: Used for generation list of fleamarkets from an intermediate file.
+    
+        Parses .pfp files and generates SQL statements.
+    Author: Crynac
+\end{DoxyVerb}
+ 
+
+\subsection{Function Documentation}
+\hypertarget{namespacefleamarket__generator_a0bcc51456daf91e8bc04c5a8969ad21a}{\index{fleamarket\-\_\-generator@{fleamarket\-\_\-generator}!get\-\_\-coordinates@{get\-\_\-coordinates}}
+\index{get\-\_\-coordinates@{get\-\_\-coordinates}!fleamarket_generator@{fleamarket\-\_\-generator}}
+\subsubsection[{get\-\_\-coordinates}]{\setlength{\rightskip}{0pt plus 5cm}def fleamarket\-\_\-generator.\-get\-\_\-coordinates (
+\begin{DoxyParamCaption}
+\item[{}]{unit}
+\end{DoxyParamCaption}
+)}}\label{namespacefleamarket__generator_a0bcc51456daf91e8bc04c5a8969ad21a}
+\begin{DoxyVerb}For getting coordinates from a fleamarket(dictionary).
+
+    Appends the coordinates with the keys: "latitude" and "longitude".
+\end{DoxyVerb}
+ \hypertarget{namespacefleamarket__generator_a130e9f8b2899bb5fa42adfb5fcc1231a}{\index{fleamarket\-\_\-generator@{fleamarket\-\_\-generator}!load\-\_\-pfp@{load\-\_\-pfp}}
+\index{load\-\_\-pfp@{load\-\_\-pfp}!fleamarket_generator@{fleamarket\-\_\-generator}}
+\subsubsection[{load\-\_\-pfp}]{\setlength{\rightskip}{0pt plus 5cm}def fleamarket\-\_\-generator.\-load\-\_\-pfp (
+\begin{DoxyParamCaption}
+\item[{}]{file}
+\end{DoxyParamCaption}
+)}}\label{namespacefleamarket__generator_a130e9f8b2899bb5fa42adfb5fcc1231a}
+\begin{DoxyVerb}Loads pfp file and returns the content as Python object. \end{DoxyVerb}
+ \hypertarget{namespacefleamarket__generator_a81054b562415c2decf8d4c21ad42f1ad}{\index{fleamarket\-\_\-generator@{fleamarket\-\_\-generator}!make\-\_\-fleamarket\-\_\-sql@{make\-\_\-fleamarket\-\_\-sql}}
+\index{make\-\_\-fleamarket\-\_\-sql@{make\-\_\-fleamarket\-\_\-sql}!fleamarket_generator@{fleamarket\-\_\-generator}}
+\subsubsection[{make\-\_\-fleamarket\-\_\-sql}]{\setlength{\rightskip}{0pt plus 5cm}def fleamarket\-\_\-generator.\-make\-\_\-fleamarket\-\_\-sql (
+\begin{DoxyParamCaption}
+\item[{}]{unit}
+\end{DoxyParamCaption}
+)}}\label{namespacefleamarket__generator_a81054b562415c2decf8d4c21ad42f1ad}
+\begin{DoxyVerb}Converts fleamarket(dictionary) into SQL insert form. \end{DoxyVerb}
+ \hypertarget{namespacefleamarket__generator_ab1981a1f1d6d772f2c2f2ae9cf6aacde}{\index{fleamarket\-\_\-generator@{fleamarket\-\_\-generator}!parse\-\_\-chunk@{parse\-\_\-chunk}}
+\index{parse\-\_\-chunk@{parse\-\_\-chunk}!fleamarket_generator@{fleamarket\-\_\-generator}}
+\subsubsection[{parse\-\_\-chunk}]{\setlength{\rightskip}{0pt plus 5cm}def fleamarket\-\_\-generator.\-parse\-\_\-chunk (
+\begin{DoxyParamCaption}
+\item[{}]{chunk}
+\end{DoxyParamCaption}
+)}}\label{namespacefleamarket__generator_ab1981a1f1d6d772f2c2f2ae9cf6aacde}
+\begin{DoxyVerb}Parses the object returned from "load_pfp". \end{DoxyVerb}
+ 

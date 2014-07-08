@@ -1,0 +1,211 @@
+\begin{theindex}
+
+  \item {create\discretionary {-}{}{}Flea\discretionary {-}{}{}Market}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Rest\discretionary {-}{}{}Service}, 
+		\hyperpage{13}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}Rest\discretionary {-}{}{}Service}, 
+		\hyperpage{22}
+  \item {create\discretionary {-}{}{}Opening}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Rest\discretionary {-}{}{}Service}, 
+		\hyperpage{13}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}Rest\discretionary {-}{}{}Service}, 
+		\hyperpage{22}
+  \item {create\discretionary {-}{}{}Review}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Rest\discretionary {-}{}{}Service}, 
+		\hyperpage{13}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}Rest\discretionary {-}{}{}Service}, 
+		\hyperpage{23}
+
+  \indexspace
+
+  \item {delete\discretionary {-}{}{}Flea\discretionary {-}{}{}Market}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Rest\discretionary {-}{}{}Service}, 
+		\hyperpage{14}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}Rest\discretionary {-}{}{}Service}, 
+		\hyperpage{23}
+  \item {delete\discretionary {-}{}{}Opening}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Rest\discretionary {-}{}{}Service}, 
+		\hyperpage{14}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}Rest\discretionary {-}{}{}Service}, 
+		\hyperpage{23}
+  \item {delete\discretionary {-}{}{}Review}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Rest\discretionary {-}{}{}Service}, 
+		\hyperpage{14}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}Rest\discretionary {-}{}{}Service}, 
+		\hyperpage{24}
+  \item {Dispose}
+    \subitem {Windows\discretionary {-}{}{}Service\discretionary {-}{}{}::\discretionary {-}{}{}Project\discretionary {-}{}{}Installer}, 
+		\hyperpage{19}
+    \subitem {Windows\discretionary {-}{}{}Service\discretionary {-}{}{}::\discretionary {-}{}{}Service}, 
+		\hyperpage{27}
+
+  \indexspace
+
+  \item {Fleamarket\discretionary {-}{}{}Category}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}Utility}, 
+		\hyperpage{28}
+  \item {fleamarket\discretionary {-}{}{}Description}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Rest\discretionary {-}{}{}Service}, 
+		\hyperpage{14}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}Rest\discretionary {-}{}{}Service}, 
+		\hyperpage{24}
+  \item {fleamarket\discretionary {-}{}{}List}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Rest\discretionary {-}{}{}Service}, 
+		\hyperpage{16}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}Rest\discretionary {-}{}{}Service}, 
+		\hyperpage{24}
+  \item {fleamarket\discretionary {-}{}{}Validate\discretionary {-}{}{}Rules}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}Utility}, 
+		\hyperpage{28}
+
+  \indexspace
+
+  \item {login}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}Auth}, 
+		\hyperpage{9}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Rest\discretionary {-}{}{}Service}, 
+		\hyperpage{16}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}Rest\discretionary {-}{}{}Service}, 
+		\hyperpage{24}
+
+  \indexspace
+
+  \item {opening\discretionary {-}{}{}Validate\discretionary {-}{}{}Rules}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}Utility}, 
+		\hyperpage{29}
+
+  \indexspace
+
+  \item {register}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}Auth}, 
+		\hyperpage{9}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Rest\discretionary {-}{}{}Service}, 
+		\hyperpage{16}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}Rest\discretionary {-}{}{}Service}, 
+		\hyperpage{25}
+  \item {review\discretionary {-}{}{}Validate\discretionary {-}{}{}Rules}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}Utility}, 
+		\hyperpage{29}
+
+  \indexspace
+
+  \item {Serialize}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}Response}, 
+		\hyperpage{19}
+  \item {Service\discretionary {-}{}{}Library}, \hyperpage{7}
+  \item {Service\discretionary {-}{}{}Library.\discretionary {-}{}{}Auth}, 
+		\hyperpage{9}
+  \item {Service\discretionary {-}{}{}Library.\discretionary {-}{}{}Database}, 
+		\hyperpage{7}
+  \item {Service\discretionary {-}{}{}Library.\discretionary {-}{}{}Database.\discretionary {-}{}{}fleamarket\discretionary {-}{}{}\_\discretionary {-}{}{}addresses}, 
+		\hyperpage{10}
+  \item {Service\discretionary {-}{}{}Library.\discretionary {-}{}{}Database.\discretionary {-}{}{}fleamarket\discretionary {-}{}{}\_\discretionary {-}{}{}items}, 
+		\hyperpage{10}
+  \item {Service\discretionary {-}{}{}Library.\discretionary {-}{}{}Database.\discretionary {-}{}{}fleamarket\discretionary {-}{}{}\_\discretionary {-}{}{}openings}, 
+		\hyperpage{10}
+  \item {Service\discretionary {-}{}{}Library.\discretionary {-}{}{}Database.\discretionary {-}{}{}fleamarket\discretionary {-}{}{}\_\discretionary {-}{}{}reviews}, 
+		\hyperpage{11}
+  \item {Service\discretionary {-}{}{}Library.\discretionary {-}{}{}Database.\discretionary {-}{}{}fleamarkets}, 
+		\hyperpage{11}
+  \item {Service\discretionary {-}{}{}Library.\discretionary {-}{}{}Database.\discretionary {-}{}{}Rest\discretionary {-}{}{}Entities}, 
+		\hyperpage{20}
+  \item {Service\discretionary {-}{}{}Library.\discretionary {-}{}{}Database.\discretionary {-}{}{}users}, 
+		\hyperpage{27}
+  \item {Service\discretionary {-}{}{}Library.\discretionary {-}{}{}I\discretionary {-}{}{}Rest\discretionary {-}{}{}Service}, 
+		\hyperpage{11}
+  \item {Service\discretionary {-}{}{}Library.\discretionary {-}{}{}Response}, 
+		\hyperpage{19}
+  \item {Service\discretionary {-}{}{}Library.\discretionary {-}{}{}Rest\discretionary {-}{}{}Service}, 
+		\hyperpage{21}
+  \item {Service\discretionary {-}{}{}Library.\discretionary {-}{}{}Utility}, 
+		\hyperpage{28}
+  \item {Service\discretionary {-}{}{}Library.\discretionary {-}{}{}Wrapper}, 
+		\hyperpage{29}
+  \item {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}Auth}
+    \subitem {login}, \hyperpage{9}
+    \subitem {register}, \hyperpage{9}
+  \item {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Rest\discretionary {-}{}{}Service}
+    \subitem {create\discretionary {-}{}{}Flea\discretionary {-}{}{}Market}, 
+		\hyperpage{13}
+    \subitem {create\discretionary {-}{}{}Opening}, \hyperpage{13}
+    \subitem {create\discretionary {-}{}{}Review}, \hyperpage{13}
+    \subitem {delete\discretionary {-}{}{}Flea\discretionary {-}{}{}Market}, 
+		\hyperpage{14}
+    \subitem {delete\discretionary {-}{}{}Opening}, \hyperpage{14}
+    \subitem {delete\discretionary {-}{}{}Review}, \hyperpage{14}
+    \subitem {fleamarket\discretionary {-}{}{}Description}, 
+		\hyperpage{14}
+    \subitem {fleamarket\discretionary {-}{}{}List}, \hyperpage{16}
+    \subitem {login}, \hyperpage{16}
+    \subitem {register}, \hyperpage{16}
+    \subitem {update\discretionary {-}{}{}Flea\discretionary {-}{}{}Market}, 
+		\hyperpage{16}
+    \subitem {update\discretionary {-}{}{}Opening}, \hyperpage{17}
+    \subitem {update\discretionary {-}{}{}Review}, \hyperpage{17}
+  \item {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}Response}
+    \subitem {Serialize}, \hyperpage{19}
+  \item {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}Rest\discretionary {-}{}{}Service}
+    \subitem {create\discretionary {-}{}{}Flea\discretionary {-}{}{}Market}, 
+		\hyperpage{22}
+    \subitem {create\discretionary {-}{}{}Opening}, \hyperpage{22}
+    \subitem {create\discretionary {-}{}{}Review}, \hyperpage{23}
+    \subitem {delete\discretionary {-}{}{}Flea\discretionary {-}{}{}Market}, 
+		\hyperpage{23}
+    \subitem {delete\discretionary {-}{}{}Opening}, \hyperpage{23}
+    \subitem {delete\discretionary {-}{}{}Review}, \hyperpage{24}
+    \subitem {fleamarket\discretionary {-}{}{}Description}, 
+		\hyperpage{24}
+    \subitem {fleamarket\discretionary {-}{}{}List}, \hyperpage{24}
+    \subitem {login}, \hyperpage{24}
+    \subitem {register}, \hyperpage{25}
+    \subitem {update\discretionary {-}{}{}Flea\discretionary {-}{}{}Market}, 
+		\hyperpage{25}
+    \subitem {update\discretionary {-}{}{}Opening}, \hyperpage{25}
+    \subitem {update\discretionary {-}{}{}Review}, \hyperpage{26}
+  \item {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}Utility}
+    \subitem {Fleamarket\discretionary {-}{}{}Category}, \hyperpage{28}
+    \subitem {fleamarket\discretionary {-}{}{}Validate\discretionary {-}{}{}Rules}, 
+		\hyperpage{28}
+    \subitem {opening\discretionary {-}{}{}Validate\discretionary {-}{}{}Rules}, 
+		\hyperpage{29}
+    \subitem {review\discretionary {-}{}{}Validate\discretionary {-}{}{}Rules}, 
+		\hyperpage{29}
+  \item {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}Wrapper}
+    \subitem {Wrapper}, \hyperpage{30}
+
+  \indexspace
+
+  \item {update\discretionary {-}{}{}Flea\discretionary {-}{}{}Market}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Rest\discretionary {-}{}{}Service}, 
+		\hyperpage{16}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}Rest\discretionary {-}{}{}Service}, 
+		\hyperpage{25}
+  \item {update\discretionary {-}{}{}Opening}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Rest\discretionary {-}{}{}Service}, 
+		\hyperpage{17}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}Rest\discretionary {-}{}{}Service}, 
+		\hyperpage{25}
+  \item {update\discretionary {-}{}{}Review}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}I\discretionary {-}{}{}Rest\discretionary {-}{}{}Service}, 
+		\hyperpage{17}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}Rest\discretionary {-}{}{}Service}, 
+		\hyperpage{26}
+
+  \indexspace
+
+  \item {Windows\discretionary {-}{}{}Service}, \hyperpage{8}
+  \item {Windows\discretionary {-}{}{}Service.\discretionary {-}{}{}Program}, 
+		\hyperpage{18}
+  \item {Windows\discretionary {-}{}{}Service.\discretionary {-}{}{}Project\discretionary {-}{}{}Installer}, 
+		\hyperpage{18}
+  \item {Windows\discretionary {-}{}{}Service.\discretionary {-}{}{}Service}, 
+		\hyperpage{26}
+  \item {Windows\discretionary {-}{}{}Service\discretionary {-}{}{}::\discretionary {-}{}{}Project\discretionary {-}{}{}Installer}
+    \subitem {Dispose}, \hyperpage{19}
+  \item {Windows\discretionary {-}{}{}Service\discretionary {-}{}{}::\discretionary {-}{}{}Service}
+    \subitem {Dispose}, \hyperpage{27}
+  \item {Wrapper}
+    \subitem {Service\discretionary {-}{}{}Library\discretionary {-}{}{}::\discretionary {-}{}{}Wrapper}, 
+		\hyperpage{30}
+
+\end{theindex}

@@ -1,0 +1,482 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="RestModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="RestModelStoreContainer">
+          <EntitySet Name="fleamarket_addresses" EntityType="RestModel.Store.fleamarket_addresses" store:Type="Tables" Schema="rest" />
+          <EntitySet Name="fleamarket_items" EntityType="RestModel.Store.fleamarket_items" store:Type="Tables" Schema="rest" />
+          <EntitySet Name="fleamarket_openings" EntityType="RestModel.Store.fleamarket_openings" store:Type="Tables" Schema="rest" />
+          <EntitySet Name="fleamarket_reviews" EntityType="RestModel.Store.fleamarket_reviews" store:Type="Tables" Schema="rest" />
+          <EntitySet Name="fleamarkets" EntityType="RestModel.Store.fleamarkets" store:Type="Tables" Schema="rest" />
+          <EntitySet Name="fleamarkets_has_fleamarket_items" EntityType="RestModel.Store.fleamarkets_has_fleamarket_items" store:Type="Tables" Schema="rest" />
+          <EntitySet Name="users" EntityType="RestModel.Store.users" store:Type="Tables" Schema="rest" />
+          <AssociationSet Name="fk_fleamarket_openings_fleamarkets1" Association="RestModel.Store.fk_fleamarket_openings_fleamarkets1">
+            <End Role="fleamarkets" EntitySet="fleamarkets" />
+            <End Role="fleamarket_openings" EntitySet="fleamarket_openings" />
+          </AssociationSet>
+          <AssociationSet Name="fk_fleamarkets_fleamarket_addresses" Association="RestModel.Store.fk_fleamarkets_fleamarket_addresses">
+            <End Role="fleamarket_addresses" EntitySet="fleamarket_addresses" />
+            <End Role="fleamarkets" EntitySet="fleamarkets" />
+          </AssociationSet>
+          <AssociationSet Name="fk_fleamarkets_has_fleamarket_items_fleamarket_items1" Association="RestModel.Store.fk_fleamarkets_has_fleamarket_items_fleamarket_items1">
+            <End Role="fleamarket_items" EntitySet="fleamarket_items" />
+            <End Role="fleamarkets_has_fleamarket_items" EntitySet="fleamarkets_has_fleamarket_items" />
+          </AssociationSet>
+          <AssociationSet Name="fk_fleamarkets_has_fleamarket_items_fleamarkets1" Association="RestModel.Store.fk_fleamarkets_has_fleamarket_items_fleamarkets1">
+            <End Role="fleamarkets" EntitySet="fleamarkets" />
+            <End Role="fleamarkets_has_fleamarket_items" EntitySet="fleamarkets_has_fleamarket_items" />
+          </AssociationSet>
+          <AssociationSet Name="fk_fleamarkets_reviews_fleamarkets1" Association="RestModel.Store.fk_fleamarkets_reviews_fleamarkets1">
+            <End Role="fleamarkets" EntitySet="fleamarkets" />
+            <End Role="fleamarket_reviews" EntitySet="fleamarket_reviews" />
+          </AssociationSet>
+          <AssociationSet Name="fk_fleamarkets_reviews_users1" Association="RestModel.Store.fk_fleamarkets_reviews_users1">
+            <End Role="users" EntitySet="users" />
+            <End Role="fleamarket_reviews" EntitySet="fleamarket_reviews" />
+          </AssociationSet>
+          <AssociationSet Name="fk_fleamarkets_users1" Association="RestModel.Store.fk_fleamarkets_users1">
+            <End Role="users" EntitySet="users" />
+            <End Role="fleamarkets" EntitySet="fleamarkets" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="fleamarket_addresses">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="city" Type="varchar" Nullable="false" MaxLength="255" />
+          <Property Name="street" Type="varchar" Nullable="false" MaxLength="255" />
+          <Property Name="postcode" Type="varchar" Nullable="false" MaxLength="255" />
+          <Property Name="latitude" Type="float" Nullable="false" />
+          <Property Name="longitude" Type="float" Nullable="false" />
+        </EntityType>
+        <EntityType Name="fleamarket_items">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="varchar" Nullable="false" MaxLength="45" />
+        </EntityType>
+        <EntityType Name="fleamarket_openings">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="from" Type="datetime" Nullable="false" />
+          <Property Name="to" Type="datetime" Nullable="false" />
+          <Property Name="fleamarkets_id" Type="int" Nullable="false" />
+          <Property Name="description" Type="text" Nullable="false" />
+        </EntityType>
+        <EntityType Name="fleamarket_reviews">
+          <Key>
+            <PropertyRef Name="users_id" />
+            <PropertyRef Name="fleamarkets_id" />
+          </Key>
+          <Property Name="users_id" Type="int" Nullable="false" />
+          <Property Name="fleamarkets_id" Type="int" Nullable="false" />
+          <Property Name="text" Type="text" Nullable="false" />
+          <Property Name="stars" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="fleamarkets">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="name" Type="varchar" Nullable="false" MaxLength="255" />
+          <Property Name="description" Type="text" Nullable="false" />
+          <Property Name="logo" Type="text" Nullable="false" />
+          <Property Name="created_on" Type="datetime" Nullable="false" />
+          <Property Name="modified_on" Type="datetime" Nullable="false" />
+          <Property Name="category" Type="enum" Nullable="false" />
+          <Property Name="fleamarket_addresses_id" Type="int" Nullable="false" />
+          <Property Name="users_id" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="fleamarkets_has_fleamarket_items">
+          <Key>
+            <PropertyRef Name="fleamarkets_id" />
+            <PropertyRef Name="fleamarket_items_id" />
+          </Key>
+          <Property Name="fleamarkets_id" Type="int" Nullable="false" />
+          <Property Name="fleamarket_items_id" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="users">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="email" Type="varchar" Nullable="false" MaxLength="255" />
+          <Property Name="name" Type="varchar" MaxLength="255" />
+          <Property Name="password_hash" Type="varchar" Nullable="false" MaxLength="255" />
+          <Property Name="salt" Type="varchar" Nullable="false" MaxLength="255" />
+          <Property Name="created_on" Type="datetime" Nullable="false" />
+          <Property Name="modified_on" Type="datetime" Nullable="false" />
+        </EntityType>
+        <Association Name="fk_fleamarket_openings_fleamarkets1">
+          <End Role="fleamarkets" Type="RestModel.Store.fleamarkets" Multiplicity="1" />
+          <End Role="fleamarket_openings" Type="RestModel.Store.fleamarket_openings" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="fleamarkets">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="fleamarket_openings">
+              <PropertyRef Name="fleamarkets_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_fleamarkets_fleamarket_addresses">
+          <End Role="fleamarket_addresses" Type="RestModel.Store.fleamarket_addresses" Multiplicity="1" />
+          <End Role="fleamarkets" Type="RestModel.Store.fleamarkets" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="fleamarket_addresses">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="fleamarkets">
+              <PropertyRef Name="fleamarket_addresses_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_fleamarkets_has_fleamarket_items_fleamarket_items1">
+          <End Role="fleamarket_items" Type="RestModel.Store.fleamarket_items" Multiplicity="1" />
+          <End Role="fleamarkets_has_fleamarket_items" Type="RestModel.Store.fleamarkets_has_fleamarket_items" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="fleamarket_items">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="fleamarkets_has_fleamarket_items">
+              <PropertyRef Name="fleamarket_items_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_fleamarkets_has_fleamarket_items_fleamarkets1">
+          <End Role="fleamarkets" Type="RestModel.Store.fleamarkets" Multiplicity="1" />
+          <End Role="fleamarkets_has_fleamarket_items" Type="RestModel.Store.fleamarkets_has_fleamarket_items" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="fleamarkets">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="fleamarkets_has_fleamarket_items">
+              <PropertyRef Name="fleamarkets_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_fleamarkets_reviews_fleamarkets1">
+          <End Role="fleamarkets" Type="RestModel.Store.fleamarkets" Multiplicity="1" />
+          <End Role="fleamarket_reviews" Type="RestModel.Store.fleamarket_reviews" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="fleamarkets">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="fleamarket_reviews">
+              <PropertyRef Name="fleamarkets_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_fleamarkets_reviews_users1">
+          <End Role="users" Type="RestModel.Store.users" Multiplicity="1" />
+          <End Role="fleamarket_reviews" Type="RestModel.Store.fleamarket_reviews" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="users">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="fleamarket_reviews">
+              <PropertyRef Name="users_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_fleamarkets_users1">
+          <End Role="users" Type="RestModel.Store.users" Multiplicity="1" />
+          <End Role="fleamarkets" Type="RestModel.Store.fleamarkets" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="users">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="fleamarkets">
+              <PropertyRef Name="users_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="RestModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="RestEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="fleamarket_addresses" EntityType="RestModel.fleamarket_addresses" />
+          <EntitySet Name="fleamarket_items" EntityType="RestModel.fleamarket_items" />
+          <EntitySet Name="fleamarket_openings" EntityType="RestModel.fleamarket_openings" />
+          <EntitySet Name="fleamarket_reviews" EntityType="RestModel.fleamarket_reviews" />
+          <EntitySet Name="fleamarkets" EntityType="RestModel.fleamarkets" />
+          <EntitySet Name="users" EntityType="RestModel.users" />
+          <AssociationSet Name="fk_fleamarkets_fleamarket_addresses" Association="RestModel.fk_fleamarkets_fleamarket_addresses">
+            <End Role="fleamarket_addresses" EntitySet="fleamarket_addresses" />
+            <End Role="fleamarkets" EntitySet="fleamarkets" />
+          </AssociationSet>
+          <AssociationSet Name="fk_fleamarket_openings_fleamarkets1" Association="RestModel.fk_fleamarket_openings_fleamarkets1">
+            <End Role="fleamarkets" EntitySet="fleamarkets" />
+            <End Role="fleamarket_openings" EntitySet="fleamarket_openings" />
+          </AssociationSet>
+          <AssociationSet Name="fk_fleamarkets_reviews_fleamarkets1" Association="RestModel.fk_fleamarkets_reviews_fleamarkets1">
+            <End Role="fleamarkets" EntitySet="fleamarkets" />
+            <End Role="fleamarket_reviews" EntitySet="fleamarket_reviews" />
+          </AssociationSet>
+          <AssociationSet Name="fk_fleamarkets_reviews_users1" Association="RestModel.fk_fleamarkets_reviews_users1">
+            <End Role="users" EntitySet="users" />
+            <End Role="fleamarket_reviews" EntitySet="fleamarket_reviews" />
+          </AssociationSet>
+          <AssociationSet Name="fk_fleamarkets_users1" Association="RestModel.fk_fleamarkets_users1">
+            <End Role="users" EntitySet="users" />
+            <End Role="fleamarkets" EntitySet="fleamarkets" />
+          </AssociationSet>
+          <AssociationSet Name="fleamarkets_has_fleamarket_items" Association="RestModel.fleamarkets_has_fleamarket_items">
+            <End Role="fleamarket_items" EntitySet="fleamarket_items" />
+            <End Role="fleamarkets" EntitySet="fleamarkets" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="fleamarket_addresses">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="city" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="street" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="postcode" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Type="Single" Name="latitude" Nullable="false" />
+          <Property Type="Single" Name="longitude" Nullable="false" />
+          <NavigationProperty Name="fleamarkets" Relationship="RestModel.fk_fleamarkets_fleamarket_addresses" FromRole="fleamarket_addresses" ToRole="fleamarkets" />
+        </EntityType>
+        <EntityType Name="fleamarket_items">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="name" Nullable="false" MaxLength="45" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="fleamarkets" Relationship="RestModel.fleamarkets_has_fleamarket_items" FromRole="fleamarket_items" ToRole="fleamarkets" />
+        </EntityType>
+        <EntityType Name="fleamarket_openings">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="DateTime" Name="from" Nullable="false" />
+          <Property Type="DateTime" Name="to" Nullable="false" />
+          <Property Type="Int32" Name="fleamarkets_id" Nullable="false" />
+          <Property Type="String" Name="description" Nullable="false" MaxLength="65535" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="fleamarkets" Relationship="RestModel.fk_fleamarket_openings_fleamarkets1" FromRole="fleamarket_openings" ToRole="fleamarkets" />
+        </EntityType>
+        <EntityType Name="fleamarket_reviews">
+          <Key>
+            <PropertyRef Name="users_id" />
+            <PropertyRef Name="fleamarkets_id" />
+          </Key>
+          <Property Type="Int32" Name="users_id" Nullable="false" />
+          <Property Type="Int32" Name="fleamarkets_id" Nullable="false" />
+          <Property Type="String" Name="text" Nullable="false" MaxLength="65535" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="stars" Nullable="false" />
+          <NavigationProperty Name="fleamarkets" Relationship="RestModel.fk_fleamarkets_reviews_fleamarkets1" FromRole="fleamarket_reviews" ToRole="fleamarkets" />
+          <NavigationProperty Name="users" Relationship="RestModel.fk_fleamarkets_reviews_users1" FromRole="fleamarket_reviews" ToRole="users" />
+        </EntityType>
+        <EntityType Name="fleamarkets">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="name" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="description" Nullable="false" MaxLength="65535" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="logo" Nullable="false" MaxLength="65535" FixedLength="false" Unicode="false" />
+          <Property Type="DateTime" Name="created_on" Nullable="false" />
+          <Property Type="DateTime" Name="modified_on" Nullable="false" />
+          <Property Type="String" Name="category" Nullable="false" MaxLength="65532" FixedLength="false" Unicode="false" />
+          <Property Type="Int32" Name="fleamarket_addresses_id" Nullable="false" />
+          <Property Type="Int32" Name="users_id" Nullable="false" />
+          <NavigationProperty Name="fleamarket_addresses" Relationship="RestModel.fk_fleamarkets_fleamarket_addresses" FromRole="fleamarkets" ToRole="fleamarket_addresses" />
+          <NavigationProperty Name="fleamarket_openings" Relationship="RestModel.fk_fleamarket_openings_fleamarkets1" FromRole="fleamarkets" ToRole="fleamarket_openings" />
+          <NavigationProperty Name="fleamarket_reviews" Relationship="RestModel.fk_fleamarkets_reviews_fleamarkets1" FromRole="fleamarkets" ToRole="fleamarket_reviews" />
+          <NavigationProperty Name="users" Relationship="RestModel.fk_fleamarkets_users1" FromRole="fleamarkets" ToRole="users" />
+          <NavigationProperty Name="fleamarket_items" Relationship="RestModel.fleamarkets_has_fleamarket_items" FromRole="fleamarkets" ToRole="fleamarket_items" />
+        </EntityType>
+        <EntityType Name="users">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Type="Int32" Name="id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Type="String" Name="email" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="name" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="password_hash" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Type="String" Name="salt" Nullable="false" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Type="DateTime" Name="created_on" Nullable="false" />
+          <Property Type="DateTime" Name="modified_on" Nullable="false" />
+          <NavigationProperty Name="fleamarket_reviews" Relationship="RestModel.fk_fleamarkets_reviews_users1" FromRole="users" ToRole="fleamarket_reviews" />
+          <NavigationProperty Name="fleamarkets" Relationship="RestModel.fk_fleamarkets_users1" FromRole="users" ToRole="fleamarkets" />
+        </EntityType>
+        <Association Name="fk_fleamarkets_fleamarket_addresses">
+          <End Type="RestModel.fleamarket_addresses" Role="fleamarket_addresses" Multiplicity="1" />
+          <End Type="RestModel.fleamarkets" Role="fleamarkets" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="fleamarket_addresses">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="fleamarkets">
+              <PropertyRef Name="fleamarket_addresses_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_fleamarket_openings_fleamarkets1">
+          <End Type="RestModel.fleamarkets" Role="fleamarkets" Multiplicity="1" />
+          <End Type="RestModel.fleamarket_openings" Role="fleamarket_openings" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="fleamarkets">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="fleamarket_openings">
+              <PropertyRef Name="fleamarkets_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_fleamarkets_reviews_fleamarkets1">
+          <End Type="RestModel.fleamarkets" Role="fleamarkets" Multiplicity="1" />
+          <End Type="RestModel.fleamarket_reviews" Role="fleamarket_reviews" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="fleamarkets">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="fleamarket_reviews">
+              <PropertyRef Name="fleamarkets_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_fleamarkets_reviews_users1">
+          <End Type="RestModel.users" Role="users" Multiplicity="1" />
+          <End Type="RestModel.fleamarket_reviews" Role="fleamarket_reviews" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="users">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="fleamarket_reviews">
+              <PropertyRef Name="users_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fk_fleamarkets_users1">
+          <End Type="RestModel.users" Role="users" Multiplicity="1" />
+          <End Type="RestModel.fleamarkets" Role="fleamarkets" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="users">
+              <PropertyRef Name="id" />
+            </Principal>
+            <Dependent Role="fleamarkets">
+              <PropertyRef Name="users_id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="fleamarkets_has_fleamarket_items">
+          <End Type="RestModel.fleamarket_items" Role="fleamarket_items" Multiplicity="*" />
+          <End Type="RestModel.fleamarkets" Role="fleamarkets" Multiplicity="*" />
+        </Association>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="RestModelStoreContainer" CdmEntityContainer="RestEntities">
+          <EntitySetMapping Name="fleamarket_addresses">
+            <EntityTypeMapping TypeName="RestModel.fleamarket_addresses">
+              <MappingFragment StoreEntitySet="fleamarket_addresses">
+                <ScalarProperty Name="longitude" ColumnName="longitude" />
+                <ScalarProperty Name="latitude" ColumnName="latitude" />
+                <ScalarProperty Name="postcode" ColumnName="postcode" />
+                <ScalarProperty Name="street" ColumnName="street" />
+                <ScalarProperty Name="city" ColumnName="city" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="fleamarket_items">
+            <EntityTypeMapping TypeName="RestModel.fleamarket_items">
+              <MappingFragment StoreEntitySet="fleamarket_items">
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="fleamarket_openings">
+            <EntityTypeMapping TypeName="RestModel.fleamarket_openings">
+              <MappingFragment StoreEntitySet="fleamarket_openings">
+                <ScalarProperty Name="description" ColumnName="description" />
+                <ScalarProperty Name="fleamarkets_id" ColumnName="fleamarkets_id" />
+                <ScalarProperty Name="to" ColumnName="to" />
+                <ScalarProperty Name="from" ColumnName="from" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="fleamarket_reviews">
+            <EntityTypeMapping TypeName="RestModel.fleamarket_reviews">
+              <MappingFragment StoreEntitySet="fleamarket_reviews">
+                <ScalarProperty Name="stars" ColumnName="stars" />
+                <ScalarProperty Name="text" ColumnName="text" />
+                <ScalarProperty Name="fleamarkets_id" ColumnName="fleamarkets_id" />
+                <ScalarProperty Name="users_id" ColumnName="users_id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="fleamarkets">
+            <EntityTypeMapping TypeName="RestModel.fleamarkets">
+              <MappingFragment StoreEntitySet="fleamarkets">
+                <ScalarProperty Name="users_id" ColumnName="users_id" />
+                <ScalarProperty Name="fleamarket_addresses_id" ColumnName="fleamarket_addresses_id" />
+                <ScalarProperty Name="category" ColumnName="category" />
+                <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+                <ScalarProperty Name="created_on" ColumnName="created_on" />
+                <ScalarProperty Name="logo" ColumnName="logo" />
+                <ScalarProperty Name="description" ColumnName="description" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="users">
+            <EntityTypeMapping TypeName="RestModel.users">
+              <MappingFragment StoreEntitySet="users">
+                <ScalarProperty Name="modified_on" ColumnName="modified_on" />
+                <ScalarProperty Name="created_on" ColumnName="created_on" />
+                <ScalarProperty Name="salt" ColumnName="salt" />
+                <ScalarProperty Name="password_hash" ColumnName="password_hash" />
+                <ScalarProperty Name="name" ColumnName="name" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="id" ColumnName="id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="fleamarkets_has_fleamarket_items" TypeName="RestModel.fleamarkets_has_fleamarket_items" StoreEntitySet="fleamarkets_has_fleamarket_items">
+            <EndProperty Name="fleamarkets">
+              <ScalarProperty Name="id" ColumnName="fleamarkets_id" />
+            </EndProperty>
+            <EndProperty Name="fleamarket_items">
+              <ScalarProperty Name="id" ColumnName="fleamarket_items_id" />
+            </EndProperty>
+          </AssociationSetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

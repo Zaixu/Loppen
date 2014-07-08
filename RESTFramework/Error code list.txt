@@ -1,0 +1,30 @@
+0 - No error
+1 - fleamarketDescription : No valid id
+2 - auth validateRules : Username length invalid
+3 - auth validateRules : Password length invalid
+4 - auth validateRules : Invalid email
+5 - auth register : User already exists
+6 - auth login : Invalid Credentials
+7 - auth login : Invalid Credentials
+8 - utility reviewValidateRules : Unable to parse fleamarket id
+9 - utility reviewValidateRules : Unable to parse stars
+10 - Utility reviewValidateRules : Invalid stars range
+11 - createReview : Review exists
+12 - updateReview : Review does not exist
+13 - deleteReview : Invalid id
+14 - deleteReview : Review does not exist
+15 - Utility fleamarketValidateRules : Invalid category
+16 - Utility fleamarketValidateRules : Invalid latitude
+17 - Utility fleamarketValidateRules : Invalid longitude
+18 - updateFleamarket : Invalid fleamarket id
+19 - updateFleamarket : Unknown fleamarket
+20 - deleteFleamarket : Invalid fleamarket id
+21 - deleteFleamarket : Unknown fleamarket
+22 - openingValidateRules : Invalid from time
+23 - openingValidateRules : Invalid to time
+24 - createOpening : Invalid fleamarket id
+25 - createOpening : Unknown fleamarket or no access
+26 - updateOpening : Invalid opening id
+27 - updateOpening : Unknown opening or no access
+28 - deleteOpening : Invalid opening id
+29 - deleteOpening : Unknown opening or no access

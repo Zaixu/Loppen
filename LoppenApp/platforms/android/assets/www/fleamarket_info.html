@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+    Description: Detailed description about market.
+-->
+<html>
+    <head>
+        <!-- Site Meta Data -->
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-mdpi" />
+        <title>Loppen</title>
+        
+        <!-- Resources -->
+        <link rel="stylesheet" type="text/css" href="css/jquery-impromptu.css" />
+        <link rel="stylesheet" type="text/css" href="css/themes/default/jquery.mobile.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery-mobile.css">
+        <link rel="stylesheet" type="text/css" href="css/site.css">
+        <script src="cordova.js"></script>
+        <script src="js/require.js"></script>
+        <script type="text/javascript">
+            require(["js/default-js.js"], function()
+            {
+                require(["view_fleamarket-info_module"], function(view)
+                    {
+                        var view = new view();
+                        view.init();
+                    });
+            });
+        </script>
+
+    </head>
+
+    <body>
+    <div class="page" data-role="page" data-title="" data-theme="a">
+        <!-- Header -->
+        <div data-role="header"> 
+		    <a href="#left-panel" data-icon="bars" class="ui-nodisc-icon">Menu</a>
+             <h1 id="title"></h1>
+        </div>
+
+        <!-- Content -->
+        <div data-role="content">
+		    <img id="logo" style="width:100%; height:auto;" src="icon.png">
+            <div data-role="collapsible" data-collapsed="false" data-inset="false" data-mini="true">
+                <h3 id="infoTitle"></h3>
+                <p><span id="name"></span> <span id="nameText"></span></p>
+                <p><span id="created"></span> <span id="createdText"></span></p>
+                <p><span id="modified"></span> <span id="modifiedText"></span></p>
+            </div>
+            <div data-role="collapsible" data-collapsed="false" data-inset="false" data-mini="true">
+                    <h3 id="reviewTitle"> ></h3>
+                    <div id="rating-div"></div>
+                    <span id="responseSpan"></span>
+                    <label id="textreview-label" for="textreview"></label>
+                    <textarea id="textreview"></textarea>
+                    <button id="reviewButton"></button>
+            </div>
+            <div data-role="collapsible" data-collapsed="false" data-inset="false" data-mini="true">
+                <h3 id="descriptionTitle"></h3>
+                <p id="descriptionText"></p>
+            </div>
+            <div data-role="collapsible" data-collapsed="false" data-inset="false" data-mini="true">
+                <h3 id="addressTitle"></h3>
+                <p id="streetText"></p>
+                <p id="cityText"></p>
+                <button id="navigateButton" data-lat="" data-lng=""> </button>
+            </div>
+            <div data-role="collapsible" data-collapsed="false" data-inset="false" data-mini="true">
+                 <h3 id="openingsTitle"></h3>
+			    <div id="openingsText"> </div>
+            </div>
+        </div>
+
+        <!-- Navigation panel -->
+        <div data-role="panel" id="left-panel" data-position="left" data-display="push" data-theme="b">
+            <ul data-role="listview" class="navigationMenu"></ul>
+        </div>
+    </div>
+    </body>
+</html>

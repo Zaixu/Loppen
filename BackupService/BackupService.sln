@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackupService", "BackupService\BackupService.csproj", "{97618EA0-A2B4-4B2C-926D-448EA74AD52E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackupLibrary", "BackupLibrary\BackupLibrary.csproj", "{C63730F6-219D-420E-B8A3-4BF7AAFC1BAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97618EA0-A2B4-4B2C-926D-448EA74AD52E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97618EA0-A2B4-4B2C-926D-448EA74AD52E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97618EA0-A2B4-4B2C-926D-448EA74AD52E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97618EA0-A2B4-4B2C-926D-448EA74AD52E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C63730F6-219D-420E-B8A3-4BF7AAFC1BAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C63730F6-219D-420E-B8A3-4BF7AAFC1BAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C63730F6-219D-420E-B8A3-4BF7AAFC1BAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C63730F6-219D-420E-B8A3-4BF7AAFC1BAA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

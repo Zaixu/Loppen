@@ -1,0 +1,28 @@
+C:\Users\Rene\Documents\GitHub\Loppen\LoppenApp\platforms\wp8\Bin\Debug\ApplicationIcon.png
+C:\Users\Rene\Documents\GitHub\Loppen\LoppenApp\platforms\wp8\Bin\Debug\Background.png
+C:\Users\Rene\Documents\GitHub\Loppen\LoppenApp\platforms\wp8\Bin\Debug\com.crynac.loppen.dll
+C:\Users\Rene\Documents\GitHub\Loppen\LoppenApp\platforms\wp8\Bin\Debug\com.crynac.loppen.pdb
+C:\Users\Rene\Documents\GitHub\Loppen\LoppenApp\platforms\wp8\Bin\Debug\AppManifest.xaml
+C:\Users\Rene\Documents\GitHub\Loppen\LoppenApp\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Rene\Documents\GitHub\Loppen\LoppenApp\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap
+C:\Users\Rene\Documents\GitHub\Loppen\LoppenApp\platforms\wp8\obj\Debug\App.g.cs
+C:\Users\Rene\Documents\GitHub\Loppen\LoppenApp\platforms\wp8\obj\Debug\cordovalib\CordovaView.g.cs
+C:\Users\Rene\Documents\GitHub\Loppen\LoppenApp\platforms\wp8\obj\Debug\MainPage.g.cs
+C:\Users\Rene\Documents\GitHub\Loppen\LoppenApp\platforms\wp8\obj\Debug\com.crynac.loppen.g.resources
+C:\Users\Rene\Documents\GitHub\Loppen\LoppenApp\platforms\wp8\obj\Debug\com.crynac.loppen.dll
+C:\Users\Rene\Documents\GitHub\Loppen\LoppenApp\platforms\wp8\obj\Debug\com.crynac.loppen.pdb
+C:\Users\Rene\Documents\GitHub\Loppen\LoppenApp\platforms\wp8\obj\Debug\XapCacheFile.xml
+C:\Users\Blom\Google Drev\(Bachelor) echo $project_name\Package\CD\Code\SourceCode\LoppenApp\platforms\wp8\Bin\Debug\ApplicationIcon.png
+C:\Users\Blom\Google Drev\(Bachelor) echo $project_name\Package\CD\Code\SourceCode\LoppenApp\platforms\wp8\Bin\Debug\Background.png
+C:\Users\Blom\Google Drev\(Bachelor) echo $project_name\Package\CD\Code\SourceCode\LoppenApp\platforms\wp8\Bin\Debug\com.crynac.loppen.dll
+C:\Users\Blom\Google Drev\(Bachelor) echo $project_name\Package\CD\Code\SourceCode\LoppenApp\platforms\wp8\Bin\Debug\com.crynac.loppen.pdb
+C:\Users\Blom\Google Drev\(Bachelor) echo $project_name\Package\CD\Code\SourceCode\LoppenApp\platforms\wp8\Bin\Debug\AppManifest.xaml
+C:\Users\Blom\Google Drev\(Bachelor) echo $project_name\Package\CD\Code\SourceCode\LoppenApp\platforms\wp8\Bin\Debug\Properties\WMAppManifest.xml
+C:\Users\Blom\Google Drev\(Bachelor) echo $project_name\Package\CD\Code\SourceCode\LoppenApp\platforms\wp8\Bin\Debug\CordovaAppProj_Debug_AnyCPU.xap
+C:\Users\Blom\Google Drev\(Bachelor) echo $project_name\Package\CD\Code\SourceCode\LoppenApp\platforms\wp8\obj\Debug\App.g.cs
+C:\Users\Blom\Google Drev\(Bachelor) echo $project_name\Package\CD\Code\SourceCode\LoppenApp\platforms\wp8\obj\Debug\cordovalib\CordovaView.g.cs
+C:\Users\Blom\Google Drev\(Bachelor) echo $project_name\Package\CD\Code\SourceCode\LoppenApp\platforms\wp8\obj\Debug\MainPage.g.cs
+C:\Users\Blom\Google Drev\(Bachelor) echo $project_name\Package\CD\Code\SourceCode\LoppenApp\platforms\wp8\obj\Debug\com.crynac.loppen.g.resources
+C:\Users\Blom\Google Drev\(Bachelor) echo $project_name\Package\CD\Code\SourceCode\LoppenApp\platforms\wp8\obj\Debug\com.crynac.loppen.dll
+C:\Users\Blom\Google Drev\(Bachelor) echo $project_name\Package\CD\Code\SourceCode\LoppenApp\platforms\wp8\obj\Debug\com.crynac.loppen.pdb
+C:\Users\Blom\Google Drev\(Bachelor) echo $project_name\Package\CD\Code\SourceCode\LoppenApp\platforms\wp8\obj\Debug\XapCacheFile.xml

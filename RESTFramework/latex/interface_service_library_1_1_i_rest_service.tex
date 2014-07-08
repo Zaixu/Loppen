@@ -1,0 +1,494 @@
+\hypertarget{interface_service_library_1_1_i_rest_service}{\section{Service\-Library.\-I\-Rest\-Service Interface Reference}
+\label{interface_service_library_1_1_i_rest_service}\index{Service\-Library.\-I\-Rest\-Service@{Service\-Library.\-I\-Rest\-Service}}
+}
+
+
+Interface for rest framework interfaced from the outside  
+
+
+
+
+Inheritance diagram for Service\-Library.\-I\-Rest\-Service\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=214pt]{interface_service_library_1_1_i_rest_service__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+Stream \hyperlink{interface_service_library_1_1_i_rest_service_ad6d9e2dcc4d575310586390fa144d181}{fleamarket\-List} ()
+\begin{DoxyCompactList}\small\item\em Function that shows all fleamarkets \end{DoxyCompactList}\item 
+Stream \hyperlink{interface_service_library_1_1_i_rest_service_af1be4751f78a02a57e702a69054632cc}{fleamarket\-Description} (string id)
+\begin{DoxyCompactList}\small\item\em Function that gets info about a specific market \end{DoxyCompactList}\item 
+Stream \hyperlink{interface_service_library_1_1_i_rest_service_a54317be38e33419acaba46e8ba6a0958}{create\-Flea\-Market} (string username, string password, string name, string description, string logo, string category, string city, string street, string postcode, string latitude, string longitude)
+\begin{DoxyCompactList}\small\item\em Creates a fleamarket on the database if authorised for it \end{DoxyCompactList}\item 
+Stream \hyperlink{interface_service_library_1_1_i_rest_service_a6a7bcc09960ff24c5ce779e7be7d4ddb}{update\-Flea\-Market} (string username, string password, string fleamarket\-Id, string name, string description, string logo, string category, string city, string street, string postcode, string latitude, string longitude)
+\begin{DoxyCompactList}\small\item\em Updates a certain fleamarket if authorised for it \end{DoxyCompactList}\item 
+Stream \hyperlink{interface_service_library_1_1_i_rest_service_ab1f44acad37127065148c804d03fc36f}{delete\-Flea\-Market} (string username, string password, string fleamarket\-Id)
+\begin{DoxyCompactList}\small\item\em Function that deletes a certain fleamarket if authorised for it \end{DoxyCompactList}\item 
+Stream \hyperlink{interface_service_library_1_1_i_rest_service_a8da12dfeb7d26f50c935c17ed4969ef8}{create\-Opening} (string username, string password, string fleamarket\-Id, string from, string to, string description)
+\begin{DoxyCompactList}\small\item\em Function that creates fleamarket openings if authorised for it \end{DoxyCompactList}\item 
+Stream \hyperlink{interface_service_library_1_1_i_rest_service_aff55a9fbcda58a0830319982233420b8}{update\-Opening} (string username, string password, string opening\-Id, string from, string to, string description)
+\begin{DoxyCompactList}\small\item\em Function that updates an existing opening if authorised for it \end{DoxyCompactList}\item 
+Stream \hyperlink{interface_service_library_1_1_i_rest_service_a4bfa508142405715bb37792073c43eb2}{delete\-Opening} (string username, string password, string opening\-Id)
+\begin{DoxyCompactList}\small\item\em Function that deletes an existing opening if authorised for it \end{DoxyCompactList}\item 
+Stream \hyperlink{interface_service_library_1_1_i_rest_service_ae566a85d019d87c013ed069b381e59ee}{register} (string username, string password)
+\begin{DoxyCompactList}\small\item\em Function that registers a user with given parameters \end{DoxyCompactList}\item 
+Stream \hyperlink{interface_service_library_1_1_i_rest_service_aa0ee715b0c69f4c024ede0d91939c4a2}{login} (string username, string password)
+\begin{DoxyCompactList}\small\item\em Function that checks if a username/password is a valid user \end{DoxyCompactList}\item 
+Stream \hyperlink{interface_service_library_1_1_i_rest_service_a925656ba45a706648af391a00733e45f}{create\-Review} (string username, string password, string fleamarket\-Id, string stars, string text)
+\begin{DoxyCompactList}\small\item\em Function to create review of a fleamarket, if authorised \end{DoxyCompactList}\item 
+Stream \hyperlink{interface_service_library_1_1_i_rest_service_a8d80e4dac07cf691bc685c1944192f22}{update\-Review} (string username, string password, string fleamarket\-Id, string stars, string text)
+\begin{DoxyCompactList}\small\item\em Function to update an existing review if authorised \end{DoxyCompactList}\item 
+Stream \hyperlink{interface_service_library_1_1_i_rest_service_ae8340be9ca2f22dc5e3e93e7d2786c85}{delete\-Review} (string username, string password, string fleamarket\-Id)
+\begin{DoxyCompactList}\small\item\em Function to delete existing reviews if authorised \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Interface for rest framework interfaced from the outside 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{interface_service_library_1_1_i_rest_service_a54317be38e33419acaba46e8ba6a0958}{\index{Service\-Library\-::\-I\-Rest\-Service@{Service\-Library\-::\-I\-Rest\-Service}!create\-Flea\-Market@{create\-Flea\-Market}}
+\index{create\-Flea\-Market@{create\-Flea\-Market}!ServiceLibrary::IRestService@{Service\-Library\-::\-I\-Rest\-Service}}
+\subsubsection[{create\-Flea\-Market}]{\setlength{\rightskip}{0pt plus 5cm}Stream Service\-Library.\-I\-Rest\-Service.\-create\-Flea\-Market (
+\begin{DoxyParamCaption}
+\item[{string}]{username, }
+\item[{string}]{password, }
+\item[{string}]{name, }
+\item[{string}]{description, }
+\item[{string}]{logo, }
+\item[{string}]{category, }
+\item[{string}]{city, }
+\item[{string}]{street, }
+\item[{string}]{postcode, }
+\item[{string}]{latitude, }
+\item[{string}]{longitude}
+\end{DoxyParamCaption}
+)}}\label{interface_service_library_1_1_i_rest_service_a54317be38e33419acaba46e8ba6a0958}
+
+
+Creates a fleamarket on the database if authorised for it 
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & Username of the user that wanna add market\\
+\hline
+{\em password} & Password of the user that wanna add market\\
+\hline
+{\em name} & Name of the fleamarket\\
+\hline
+{\em description} & Description of the fleamarket\\
+\hline
+{\em logo} & Logo of the fleamarket\\
+\hline
+{\em category} & Category of the fleamarket\\
+\hline
+{\em city} & City of the fleamarket\\
+\hline
+{\em street} & Street of the fleamarket\\
+\hline
+{\em postcode} & Postcode of the fleamarket\\
+\hline
+{\em latitude} & Latitude of the fleamarket\\
+\hline
+{\em longitude} & Longitude of the fleamarket\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+J\-S\-O\-N of a wrapper with status
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{class_service_library_1_1_rest_service_a39a86dadc6525bee03594f583acff2da}{Service\-Library.\-Rest\-Service}.
+
+\hypertarget{interface_service_library_1_1_i_rest_service_a8da12dfeb7d26f50c935c17ed4969ef8}{\index{Service\-Library\-::\-I\-Rest\-Service@{Service\-Library\-::\-I\-Rest\-Service}!create\-Opening@{create\-Opening}}
+\index{create\-Opening@{create\-Opening}!ServiceLibrary::IRestService@{Service\-Library\-::\-I\-Rest\-Service}}
+\subsubsection[{create\-Opening}]{\setlength{\rightskip}{0pt plus 5cm}Stream Service\-Library.\-I\-Rest\-Service.\-create\-Opening (
+\begin{DoxyParamCaption}
+\item[{string}]{username, }
+\item[{string}]{password, }
+\item[{string}]{fleamarket\-Id, }
+\item[{string}]{from, }
+\item[{string}]{to, }
+\item[{string}]{description}
+\end{DoxyParamCaption}
+)}}\label{interface_service_library_1_1_i_rest_service_a8da12dfeb7d26f50c935c17ed4969ef8}
+
+
+Function that creates fleamarket openings if authorised for it 
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & Username of the user wanting to add opening\\
+\hline
+{\em password} & Password of the user wanting to add opening\\
+\hline
+{\em fleamarket\-Id} & Id of the fleamarket to add opening\\
+\hline
+{\em from} & Datetime of the from time\\
+\hline
+{\em to} & Datetime of the to time\\
+\hline
+{\em description} & Description of the time\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+J\-S\-O\-N of a wrapper with status
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{class_service_library_1_1_rest_service_a4d3293e03679b4d959f342308da43b1f}{Service\-Library.\-Rest\-Service}.
+
+\hypertarget{interface_service_library_1_1_i_rest_service_a925656ba45a706648af391a00733e45f}{\index{Service\-Library\-::\-I\-Rest\-Service@{Service\-Library\-::\-I\-Rest\-Service}!create\-Review@{create\-Review}}
+\index{create\-Review@{create\-Review}!ServiceLibrary::IRestService@{Service\-Library\-::\-I\-Rest\-Service}}
+\subsubsection[{create\-Review}]{\setlength{\rightskip}{0pt plus 5cm}Stream Service\-Library.\-I\-Rest\-Service.\-create\-Review (
+\begin{DoxyParamCaption}
+\item[{string}]{username, }
+\item[{string}]{password, }
+\item[{string}]{fleamarket\-Id, }
+\item[{string}]{stars, }
+\item[{string}]{text}
+\end{DoxyParamCaption}
+)}}\label{interface_service_library_1_1_i_rest_service_a925656ba45a706648af391a00733e45f}
+
+
+Function to create review of a fleamarket, if authorised 
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & Username of the user wanting to create review\\
+\hline
+{\em password} & Password of the user wanting to create review\\
+\hline
+{\em fleamarket\-Id} & Id of fleamarket to add review\\
+\hline
+{\em stars} & Amount of stars for review\\
+\hline
+{\em text} & Text for the review\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+J\-S\-O\-N of a wrapper with status
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{class_service_library_1_1_rest_service_a0121954034b57e8947b9c5ce65479f65}{Service\-Library.\-Rest\-Service}.
+
+\hypertarget{interface_service_library_1_1_i_rest_service_ab1f44acad37127065148c804d03fc36f}{\index{Service\-Library\-::\-I\-Rest\-Service@{Service\-Library\-::\-I\-Rest\-Service}!delete\-Flea\-Market@{delete\-Flea\-Market}}
+\index{delete\-Flea\-Market@{delete\-Flea\-Market}!ServiceLibrary::IRestService@{Service\-Library\-::\-I\-Rest\-Service}}
+\subsubsection[{delete\-Flea\-Market}]{\setlength{\rightskip}{0pt plus 5cm}Stream Service\-Library.\-I\-Rest\-Service.\-delete\-Flea\-Market (
+\begin{DoxyParamCaption}
+\item[{string}]{username, }
+\item[{string}]{password, }
+\item[{string}]{fleamarket\-Id}
+\end{DoxyParamCaption}
+)}}\label{interface_service_library_1_1_i_rest_service_ab1f44acad37127065148c804d03fc36f}
+
+
+Function that deletes a certain fleamarket if authorised for it 
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & Username of the user wanting to delete a market\\
+\hline
+{\em password} & Password of the user wanting to delete a market\\
+\hline
+{\em fleamarket\-Id} & Id of the market to be deleted\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+J\-S\-O\-N of a wrapper with status
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{class_service_library_1_1_rest_service_ab502a53d2f520a2b43803a10cb8a93d2}{Service\-Library.\-Rest\-Service}.
+
+\hypertarget{interface_service_library_1_1_i_rest_service_a4bfa508142405715bb37792073c43eb2}{\index{Service\-Library\-::\-I\-Rest\-Service@{Service\-Library\-::\-I\-Rest\-Service}!delete\-Opening@{delete\-Opening}}
+\index{delete\-Opening@{delete\-Opening}!ServiceLibrary::IRestService@{Service\-Library\-::\-I\-Rest\-Service}}
+\subsubsection[{delete\-Opening}]{\setlength{\rightskip}{0pt plus 5cm}Stream Service\-Library.\-I\-Rest\-Service.\-delete\-Opening (
+\begin{DoxyParamCaption}
+\item[{string}]{username, }
+\item[{string}]{password, }
+\item[{string}]{opening\-Id}
+\end{DoxyParamCaption}
+)}}\label{interface_service_library_1_1_i_rest_service_a4bfa508142405715bb37792073c43eb2}
+
+
+Function that deletes an existing opening if authorised for it 
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & Username of the user wanting to delete opening\\
+\hline
+{\em password} & Password of the user wanting to delete opening\\
+\hline
+{\em opening\-Id} & Id of opening to be deleted\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+J\-S\-O\-N of a wrapper with status
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{class_service_library_1_1_rest_service_a7952a882cc96c062c8ac5ddaaf56030f}{Service\-Library.\-Rest\-Service}.
+
+\hypertarget{interface_service_library_1_1_i_rest_service_ae8340be9ca2f22dc5e3e93e7d2786c85}{\index{Service\-Library\-::\-I\-Rest\-Service@{Service\-Library\-::\-I\-Rest\-Service}!delete\-Review@{delete\-Review}}
+\index{delete\-Review@{delete\-Review}!ServiceLibrary::IRestService@{Service\-Library\-::\-I\-Rest\-Service}}
+\subsubsection[{delete\-Review}]{\setlength{\rightskip}{0pt plus 5cm}Stream Service\-Library.\-I\-Rest\-Service.\-delete\-Review (
+\begin{DoxyParamCaption}
+\item[{string}]{username, }
+\item[{string}]{password, }
+\item[{string}]{fleamarket\-Id}
+\end{DoxyParamCaption}
+)}}\label{interface_service_library_1_1_i_rest_service_ae8340be9ca2f22dc5e3e93e7d2786c85}
+
+
+Function to delete existing reviews if authorised 
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & Username of the user wanting to delete review\\
+\hline
+{\em password} & Password of the user wanting to delete review\\
+\hline
+{\em fleamarket\-Id} & Id of fleamarket to delete review from\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+J\-S\-O\-N of a wrapper with status
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{class_service_library_1_1_rest_service_ad0b87d313f13ec52372edafd6cac9c09}{Service\-Library.\-Rest\-Service}.
+
+\hypertarget{interface_service_library_1_1_i_rest_service_af1be4751f78a02a57e702a69054632cc}{\index{Service\-Library\-::\-I\-Rest\-Service@{Service\-Library\-::\-I\-Rest\-Service}!fleamarket\-Description@{fleamarket\-Description}}
+\index{fleamarket\-Description@{fleamarket\-Description}!ServiceLibrary::IRestService@{Service\-Library\-::\-I\-Rest\-Service}}
+\subsubsection[{fleamarket\-Description}]{\setlength{\rightskip}{0pt plus 5cm}Stream Service\-Library.\-I\-Rest\-Service.\-fleamarket\-Description (
+\begin{DoxyParamCaption}
+\item[{string}]{id}
+\end{DoxyParamCaption}
+)}}\label{interface_service_library_1_1_i_rest_service_af1be4751f78a02a57e702a69054632cc}
+
+
+Function that gets info about a specific market 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & Id of the market to get details about\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+J\-S\-O\-N of a wrapper with details of a specific market
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{class_service_library_1_1_rest_service_aafc5b16ec37b4b2d75d57335fc155650}{Service\-Library.\-Rest\-Service}.
+
+\hypertarget{interface_service_library_1_1_i_rest_service_ad6d9e2dcc4d575310586390fa144d181}{\index{Service\-Library\-::\-I\-Rest\-Service@{Service\-Library\-::\-I\-Rest\-Service}!fleamarket\-List@{fleamarket\-List}}
+\index{fleamarket\-List@{fleamarket\-List}!ServiceLibrary::IRestService@{Service\-Library\-::\-I\-Rest\-Service}}
+\subsubsection[{fleamarket\-List}]{\setlength{\rightskip}{0pt plus 5cm}Stream Service\-Library.\-I\-Rest\-Service.\-fleamarket\-List (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{interface_service_library_1_1_i_rest_service_ad6d9e2dcc4d575310586390fa144d181}
+
+
+Function that shows all fleamarkets 
+
+\begin{DoxyReturn}{Returns}
+J\-S\-O\-N of a wrapper with all fleamarkets
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{class_service_library_1_1_rest_service_a5ac245dc76449e578d8f47df0344332a}{Service\-Library.\-Rest\-Service}.
+
+\hypertarget{interface_service_library_1_1_i_rest_service_aa0ee715b0c69f4c024ede0d91939c4a2}{\index{Service\-Library\-::\-I\-Rest\-Service@{Service\-Library\-::\-I\-Rest\-Service}!login@{login}}
+\index{login@{login}!ServiceLibrary::IRestService@{Service\-Library\-::\-I\-Rest\-Service}}
+\subsubsection[{login}]{\setlength{\rightskip}{0pt plus 5cm}Stream Service\-Library.\-I\-Rest\-Service.\-login (
+\begin{DoxyParamCaption}
+\item[{string}]{username, }
+\item[{string}]{password}
+\end{DoxyParamCaption}
+)}}\label{interface_service_library_1_1_i_rest_service_aa0ee715b0c69f4c024ede0d91939c4a2}
+
+
+Function that checks if a username/password is a valid user 
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & Username of the user wanting to log in\\
+\hline
+{\em password} & Password of the user wanting to log in\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+J\-S\-O\-N of a wrapper with status
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{class_service_library_1_1_rest_service_a31577832960f1aaf0c93f81e5134272a}{Service\-Library.\-Rest\-Service}.
+
+\hypertarget{interface_service_library_1_1_i_rest_service_ae566a85d019d87c013ed069b381e59ee}{\index{Service\-Library\-::\-I\-Rest\-Service@{Service\-Library\-::\-I\-Rest\-Service}!register@{register}}
+\index{register@{register}!ServiceLibrary::IRestService@{Service\-Library\-::\-I\-Rest\-Service}}
+\subsubsection[{register}]{\setlength{\rightskip}{0pt plus 5cm}Stream Service\-Library.\-I\-Rest\-Service.\-register (
+\begin{DoxyParamCaption}
+\item[{string}]{username, }
+\item[{string}]{password}
+\end{DoxyParamCaption}
+)}}\label{interface_service_library_1_1_i_rest_service_ae566a85d019d87c013ed069b381e59ee}
+
+
+Function that registers a user with given parameters 
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & Username the user wants\\
+\hline
+{\em password} & Password the user wants\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+J\-S\-O\-N of a wrapper with status
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{class_service_library_1_1_rest_service_a099ea56300324e0f53b447469579e363}{Service\-Library.\-Rest\-Service}.
+
+\hypertarget{interface_service_library_1_1_i_rest_service_a6a7bcc09960ff24c5ce779e7be7d4ddb}{\index{Service\-Library\-::\-I\-Rest\-Service@{Service\-Library\-::\-I\-Rest\-Service}!update\-Flea\-Market@{update\-Flea\-Market}}
+\index{update\-Flea\-Market@{update\-Flea\-Market}!ServiceLibrary::IRestService@{Service\-Library\-::\-I\-Rest\-Service}}
+\subsubsection[{update\-Flea\-Market}]{\setlength{\rightskip}{0pt plus 5cm}Stream Service\-Library.\-I\-Rest\-Service.\-update\-Flea\-Market (
+\begin{DoxyParamCaption}
+\item[{string}]{username, }
+\item[{string}]{password, }
+\item[{string}]{fleamarket\-Id, }
+\item[{string}]{name, }
+\item[{string}]{description, }
+\item[{string}]{logo, }
+\item[{string}]{category, }
+\item[{string}]{city, }
+\item[{string}]{street, }
+\item[{string}]{postcode, }
+\item[{string}]{latitude, }
+\item[{string}]{longitude}
+\end{DoxyParamCaption}
+)}}\label{interface_service_library_1_1_i_rest_service_a6a7bcc09960ff24c5ce779e7be7d4ddb}
+
+
+Updates a certain fleamarket if authorised for it 
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & Username of the user that wanna update market\\
+\hline
+{\em password} & Password of the user that wanna update market\\
+\hline
+{\em fleamarket\-Id} & Fleamarket id of the market to update\\
+\hline
+{\em name} & Name of which to change fleamarket to\\
+\hline
+{\em description} & Description of which to change fleamarket to\\
+\hline
+{\em logo} & Logo of which to change fleamarket to\\
+\hline
+{\em category} & Category of which to change fleamarket to\\
+\hline
+{\em city} & City of which to change fleamarket to\\
+\hline
+{\em street} & Street of which to change fleamarket to\\
+\hline
+{\em postcode} & Postcode of which to change fleamarket to\\
+\hline
+{\em latitude} & Latitude of which to change fleamarket to\\
+\hline
+{\em longitude} & Longitude of which to change fleamarket to\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+J\-S\-O\-N of a wrapper with status
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{class_service_library_1_1_rest_service_a3e183c1c796a74337fdfac3070036066}{Service\-Library.\-Rest\-Service}.
+
+\hypertarget{interface_service_library_1_1_i_rest_service_aff55a9fbcda58a0830319982233420b8}{\index{Service\-Library\-::\-I\-Rest\-Service@{Service\-Library\-::\-I\-Rest\-Service}!update\-Opening@{update\-Opening}}
+\index{update\-Opening@{update\-Opening}!ServiceLibrary::IRestService@{Service\-Library\-::\-I\-Rest\-Service}}
+\subsubsection[{update\-Opening}]{\setlength{\rightskip}{0pt plus 5cm}Stream Service\-Library.\-I\-Rest\-Service.\-update\-Opening (
+\begin{DoxyParamCaption}
+\item[{string}]{username, }
+\item[{string}]{password, }
+\item[{string}]{opening\-Id, }
+\item[{string}]{from, }
+\item[{string}]{to, }
+\item[{string}]{description}
+\end{DoxyParamCaption}
+)}}\label{interface_service_library_1_1_i_rest_service_aff55a9fbcda58a0830319982233420b8}
+
+
+Function that updates an existing opening if authorised for it 
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & Username of the user wanting to edit opening\\
+\hline
+{\em password} & Password of the user wanting to edit opening\\
+\hline
+{\em opening\-Id} & Id of the opening to be updated\\
+\hline
+{\em from} & Datetime of from time\\
+\hline
+{\em to} & Datetime of to time\\
+\hline
+{\em description} & Description of the time\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+J\-S\-O\-N of a wrapper with status
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{class_service_library_1_1_rest_service_a1fb0b2b9aabae6add481c8599579044a}{Service\-Library.\-Rest\-Service}.
+
+\hypertarget{interface_service_library_1_1_i_rest_service_a8d80e4dac07cf691bc685c1944192f22}{\index{Service\-Library\-::\-I\-Rest\-Service@{Service\-Library\-::\-I\-Rest\-Service}!update\-Review@{update\-Review}}
+\index{update\-Review@{update\-Review}!ServiceLibrary::IRestService@{Service\-Library\-::\-I\-Rest\-Service}}
+\subsubsection[{update\-Review}]{\setlength{\rightskip}{0pt plus 5cm}Stream Service\-Library.\-I\-Rest\-Service.\-update\-Review (
+\begin{DoxyParamCaption}
+\item[{string}]{username, }
+\item[{string}]{password, }
+\item[{string}]{fleamarket\-Id, }
+\item[{string}]{stars, }
+\item[{string}]{text}
+\end{DoxyParamCaption}
+)}}\label{interface_service_library_1_1_i_rest_service_a8d80e4dac07cf691bc685c1944192f22}
+
+
+Function to update an existing review if authorised 
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & Username of the user updating review\\
+\hline
+{\em password} & Password of the user updating review\\
+\hline
+{\em fleamarket\-Id} & Fleamarket id for which to change review on\\
+\hline
+{\em stars} & Amount of stars for review change\\
+\hline
+{\em text} & Text for which to change on review\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+J\-S\-O\-N of a wrapper with status
+\end{DoxyReturn}
+
+
+Implemented in \hyperlink{class_service_library_1_1_rest_service_a7623f407a00d3bc2f93b12168c7674b5}{Service\-Library.\-Rest\-Service}.
+
+
+
+The documentation for this interface was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Service\-Library/I\-Rest\-Service.\-cs\end{DoxyCompactItemize}

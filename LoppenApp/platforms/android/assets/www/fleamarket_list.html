@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<!--
+    Description: Overview of all flea markets.
+-->
+<html>
+    <head>
+        <!-- Site Meta Data -->
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-mdpi" />
+        <title>Loppen</title>
+        
+        <!-- Resources -->
+        <link rel="stylesheet" type="text/css" href="css/jquery-impromptu.css" />
+        <link rel="stylesheet" type="text/css" href="css/themes/default/jquery.mobile.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery-mobile.css">
+        <link rel="stylesheet" type="text/css" href="css/site.css">
+        <script src="cordova.js"></script>
+        <script src="js/require.js" data-main="js/default-angular.js"></script>
+    </head>
+    <body data-ng-controller="FleamarketListCtrl">
+        <div class="page" data-role="page" data-title="Find marked" data-theme="a">
+            <!-- Header -->
+            <div data-role="header">
+                <a href="#left-panel" data-icon="bars" class="ui-nodisc-icon">Menu</a>
+                <h1 id="title_market" data-ng-bind="headerMarkets"></h1>
+            </div>
+
+            <!-- Content -->
+            <div data-role="content">
+                <select data-ng-model="categorySelected" data-ng-options="category.value as category.label for category in categories" data-select-refresh>
+                </select>
+                <div data-role="collapsible">
+                    <h3 data-ng-cloak>{{headerCategory}}</h3>
+                    <div data-role="fieldcontain" data-ng-repeat="item in itemsAvailable"><!-- Collapsible -->
+                        <fieldset data-role="controlgroup" data-jqm-refresh>
+                            <input type="checkbox" name="{{'check' + item.value}}" id="{{'check' + item.value}}" 
+                            data-ng-checked="itemsSelected.indexOf(item.value) > -1" data-ng-click="itemSelect(item)"/>
+                            <label for="{{'check' + item.value}}">{{item.label}}</label>
+                        </fieldset>
+                    </div>
+                </div>
+                <input data-ng-model="searchText" placeholder="{{labelSearch}}">
+                <!-- Fleamarket list -->
+                <!-- :Header -->
+                <div class="ui-grid-a">
+                    <div class="ui-block-a ui-block-heading" data-ng-bind="headerName"></div>
+                    <div class="ui-block-b ui-block-heading" data-ng-bind="headerCity"></div>
+                </div>
+                <!-- :Loading text -->
+                <div class="ui-grid-a" data-ng-hide="fleamarketsLoaded">
+                    <div class="ui-block-a">{{labelLoadingTitle}}</div>
+                    <div class="ui-block-b">{{labelLoadingMessage}}</div>
+                </div>
+                <div id="spinner-background" data-ng-hide="fleamarketsLoaded">
+                    <div id="spinner-overlay">
+                        <img id="spinner" src="css/images/ajax-loader.gif"></img>
+                        <p id="spinner-text">{{loadingText}}</p>
+                    </div>
+                </div>
+                <!-- Data -->
+                <div class="ui-grid-a" data-ng-repeat="fleamarket in fleamarkets | filter: shouldShow" data-ng-cloak>
+                    <div class="ui-block-a" data-ng-click="showFleamarketInfo(fleamarket.id)">{{fleamarket.name | truncate:20:"..."}}</div>
+                    <div class="ui-block-b" data-ng-click="showFleamarketInfo(fleamarket.id)">{{fleamarket.fleamarket_addresses.city | truncate:15:"..."}}</div>
+                </div>
+            </div>
+
+            <!-- Navigation panel -->
+            <div data-role="panel" id="left-panel" data-display="push" data-theme="b">
+                <ul data-role="listview" class="navigationMenu"></ul>
+            </div>
+        </div>
+    </body>
+</html>

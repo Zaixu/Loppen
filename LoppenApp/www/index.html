@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--
+    Description: Main page.
+-->
+<html>
+    <head>
+        <!-- Site Meta Data -->
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-mdpi" />
+        <title>Loppen</title>
+
+        <!-- Resources -->
+        <link rel="stylesheet" type="text/css" href="css/themes/default/jquery.mobile.css">
+        <link rel="stylesheet" type="text/css" href="css/jquery-mobile.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery-mobile-simpledialog.css" />
+        <link rel="stylesheet" type="text/css" href="css/site.css">
+        
+        <script src="cordova.js"></script>
+        <script src="js/require.js"></script>
+        <script>
+            require(["js/default-js.js"], function()
+            {
+                require(["view_landingpage_module", "jquery"], function (view, jeq)
+                {
+                    view.init();
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div class="page" data-role="page" data-title="Home" data-theme="a" id="index-page">
+            <!-- Header -->
+            <div data-role="header" data-position="fixed" data-tap-toggle="false">
+                <a href="#left-panel" data-icon="bars" class="ui-nodisc-icon">Menu</a>
+            <h1 id="title_home">Home</h1>
+            </div>
+            <!-- Content -->
+            <div data-role="content" id="index-content">
+                <div id="index-div">
+                    <h1 id="index-header">
+                    </h1>
+                    <h2 id="index-subheader">
+                    </h2>
+                    <img id="index-img" src="img/logo.png"/>
+                    <div id="index-text">
+                    </div>
+                    <div id="index-platforms-div">
+                    <p></p>
+                        <img id="index-platforms-img" src="img/platforms.png"/>
+                    </div>
+                    <p id="index-navigationtext"></p>
+                </div>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a id="loginButton" href="#"></a></li>
+                        <li><a href="index.html" data-role="button" data-icon="myapp-lock">Delete</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Navigation panel -->
+            <div data-role="panel" id="left-panel" data-display="push" data-theme="b">
+                <ul data-role="listview" class="navigationMenu"></ul>
+            </div>
+        </div>
+    </body>
+</html>

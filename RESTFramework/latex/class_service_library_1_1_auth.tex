@@ -1,0 +1,72 @@
+\hypertarget{class_service_library_1_1_auth}{\section{Service\-Library.\-Auth Class Reference}
+\label{class_service_library_1_1_auth}\index{Service\-Library.\-Auth@{Service\-Library.\-Auth}}
+}
+
+
+Class that handles user authentication calls towards database  
+
+
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_service_library_1_1_wrapper}{Wrapper} \hyperlink{class_service_library_1_1_auth_a13db4b76836e33e52ab853b30289e149}{register} (string username, string password)
+\begin{DoxyCompactList}\small\item\em Function registers a user with given username and password for the rest framework on the database \end{DoxyCompactList}\item 
+static \hyperlink{class_service_library_1_1_wrapper}{Wrapper} \hyperlink{class_service_library_1_1_auth_a6bcc9764de39110acf53dc03257296fc}{login} (string username, string password)
+\begin{DoxyCompactList}\small\item\em Function checks whether a user with given username and password exists and is valid \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Class that handles user authentication calls towards database 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_service_library_1_1_auth_a6bcc9764de39110acf53dc03257296fc}{\index{Service\-Library\-::\-Auth@{Service\-Library\-::\-Auth}!login@{login}}
+\index{login@{login}!ServiceLibrary::Auth@{Service\-Library\-::\-Auth}}
+\subsubsection[{login}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Wrapper} Service\-Library.\-Auth.\-login (
+\begin{DoxyParamCaption}
+\item[{string}]{username, }
+\item[{string}]{password}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_service_library_1_1_auth_a6bcc9764de39110acf53dc03257296fc}
+
+
+Function checks whether a user with given username and password exists and is valid 
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & User username string\\
+\hline
+{\em password} & User password string\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns wrapper with status and error code
+\end{DoxyReturn}
+\hypertarget{class_service_library_1_1_auth_a13db4b76836e33e52ab853b30289e149}{\index{Service\-Library\-::\-Auth@{Service\-Library\-::\-Auth}!register@{register}}
+\index{register@{register}!ServiceLibrary::Auth@{Service\-Library\-::\-Auth}}
+\subsubsection[{register}]{\setlength{\rightskip}{0pt plus 5cm}static {\bf Wrapper} Service\-Library.\-Auth.\-register (
+\begin{DoxyParamCaption}
+\item[{string}]{username, }
+\item[{string}]{password}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{class_service_library_1_1_auth_a13db4b76836e33e52ab853b30289e149}
+
+
+Function registers a user with given username and password for the rest framework on the database 
+
+
+\begin{DoxyParams}{Parameters}
+{\em username} & Users username string\\
+\hline
+{\em password} & Users password string\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Returns a class wrapper with user info, error code and whether it succeded
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Service\-Library/auth.\-cs\end{DoxyCompactItemize}
